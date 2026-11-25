@@ -14,7 +14,6 @@ import argparse
 import datetime as dt
 import shutil
 
-from pipeline.calendar_rules import parse_utc
 from pipeline.common import DATA, OUT, load_episodes, load_events, load_sectors, read_json, write_json
 
 CATEGORIES = [
@@ -54,6 +53,9 @@ def main() -> None:
         public = export_texts()
         print(f"texts.json: {sum(1 for t in public.values() if 'analysis' in t)} reviewed analyses")
         return
+    # Imported here so `--texts-only` runs with PyYAML alone (deploy job installs nothing else).
+    from pipeline.calendar_rules import parse_utc
+
     derived = DATA / "derived"
     cfg = load_sectors()
     events = sorted(load_events(), key=lambda e: parse_utc(e["announced_at_utc"]))
