@@ -1,0 +1,68 @@
+# Sectors × markets. type: etf (single series) | basket (equal-weighted, dynamic membership)
+# Benchmarks: US = SPY, EU = EXSA.DE (STOXX Europe 600), CN = ^HSI (Shanghai Composite for China Defense)
+
+markets:
+  us: { name: US, flag: "🇺🇸", benchmark: SPY, timezone: America/New_York, open: "09:30", close: "16:00" }
+  eu: { name: Europe, flag: "🇪🇺", benchmark: EXSA.DE, timezone: Europe/Berlin, open: "09:00", close: "17:30" }
+  cn: { name: China, flag: "🇨🇳", benchmark: ^HSI, timezone: Asia/Hong_Kong, open: "09:30", close: "16:00" }
+
+sectors:
+  - id: tech
+    name: Tech
+    markets:
+      us: { type: etf, tickers: [XLK] }
+      eu: { type: etf, tickers: [EXV3.DE] }
+      cn: { type: basket, tickers: [0700.HK, 9988.HK, 3690.HK, 1810.HK, 0992.HK], min_constituents: 2 }
+
+  - id: energy
+    name: Energy (Oil & Gas)
+    markets:
+      us: { type: etf, tickers: [XLE] }
+      eu: { type: etf, tickers: [EXH1.DE] }
+      cn: { type: basket, tickers: [0857.HK, 0883.HK, 0386.HK], min_constituents: 2 }
+
+  - id: industrials
+    name: Industrials
+    markets:
+      us: { type: etf, tickers: [XLI] }
+      eu: { type: etf, tickers: [EXH4.DE] }
+      cn: { type: basket, tickers: [1766.HK, 0390.HK, 1800.HK], min_constituents: 2 }
+
+  - id: auto
+    name: Auto
+    markets:
+      us: { type: basket, tickers: [TSLA, GM, F], min_constituents: 2 }
+      eu: { type: etf, tickers: [EXV5.DE] }
+      # 0489.HK (Dongfeng) was delisted from HKEX and has no Yahoo data.
+      cn: { type: basket, tickers: [1211.HK, 0175.HK, 2015.HK, 9868.HK], min_constituents: 2 }
+
+  - id: banks
+    name: Banks
+    note: US uses XLF (Financials) for its longer history.
+    markets:
+      us: { type: etf, tickers: [XLF] }
+      eu: { type: etf, tickers: [EXV1.DE] }
+      cn: { type: basket, tickers: [1398.HK, 0939.HK, 3988.HK, 1288.HK], min_constituents: 2 }
+
+  - id: staples
+    name: Consumer Staples
+    markets:
+      us: { type: etf, tickers: [XLP] }
+      eu: { type: etf, tickers: [EXH3.DE] }
+      cn: { type: basket, tickers: [0291.HK, 0322.HK, 2319.HK, 1876.HK], min_constituents: 2 }
+
+  - id: defense
+    name: Defense
+    markets:
+      us: { type: etf, tickers: [ITA] }
+      eu: { type: basket, tickers: [RHM.DE, BA.L, LDO.MI, SAF.PA, HO.PA], min_constituents: 2 }
+      # Chinese defense barely trades in Hong Kong: A-shares vs. an A-share benchmark.
+      # CSI 300 (000300.SS) has no history on Yahoo, so the Shanghai Composite is used.
+      cn: { type: basket, tickers: [600760.SS, 600893.SS, 600150.SS, 000768.SZ], min_constituents: 2, benchmark: 000001.SS, timezone: Asia/Shanghai, open: "09:30", close: "15:00" }
+
+  - id: metals
+    name: Metals & Mining
+    markets:
+      us: { type: etf, tickers: [XME] }
+      eu: { type: etf, tickers: [EXV6.DE] }
+      cn: { type: basket, tickers: [2899.HK, 3993.HK, 2600.HK, 0358.HK, 600111.SS], min_constituents: 2 }

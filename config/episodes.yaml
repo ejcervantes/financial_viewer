@@ -1,0 +1,34 @@
+- id: dotcom
+  title: Dot-com Bubble
+  start: 1999-01-01
+  end: 2002-10-09
+
+- id: gfc
+  title: Global Financial Crisis
+  start: 2007-02-27
+  end: 2009-03-09
+
+- id: euro_crisis
+  title: Euro Debt Crisis
+  start: 2009-10-20
+  end: 2012-09-06
+
+- id: china_2015
+  title: China Stock Market Crash
+  start: 2015-06-12
+  end: 2016-02-29
+
+- id: covid
+  title: COVID-19
+  start: 2019-12-31
+  end: 2020-11-09
+
+- id: inflation
+  title: Inflation & Rate Shock
+  start: 2021-05-12
+  end: 2022-12-31
+
+- id: ai_boom
+  title: AI Boom
+  start: 2022-11-30
+  end: null   # in progress

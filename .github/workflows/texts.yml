@@ -1,0 +1,65 @@
+name: texts
+
+# Manual: fetch press coverage and generate AI texts, then open a PR for review.
+# New texts are `reviewed: false`; set `reviewed: true` in data/texts.json and merge to publish.
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Event ids, space-separated (empty = all missing)"
+        required: false
+        default: ""
+      force:
+        description: "Regenerate texts that already exist"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  texts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fetch news
+        env:
+          NYT_API_KEY: ${{ secrets.NYT_API_KEY }}
+          GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
+          ONLY: ${{ inputs.only }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          ARGS=()
+          if [ -n "$ONLY" ]; then read -ra IDS <<< "$ONLY"; ARGS+=(--only "${IDS[@]}"); fi
+          if [ "$FORCE" = "true" ]; then ARGS+=(--force); fi
+          python -m pipeline.fetch_news "${ARGS[@]}"
+      - name: Generate texts
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          ONLY: ${{ inputs.only }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          ARGS=()
+          if [ -n "$ONLY" ]; then read -ra IDS <<< "$ONLY"; ARGS+=(--only "${IDS[@]}"); fi
+          if [ "$FORCE" = "true" ]; then ARGS+=(--force); fi
+          python -m pipeline.generate_texts "${ARGS[@]}"
+      - name: Open PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="texts/$(date -u +%Y%m%d-%H%M%S)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add data/texts.json data/news
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git commit -m "texts: new AI drafts for review"
+          git push -u origin "$BRANCH"
+          gh pr create --title "AI texts for review ($(date -u +%Y-%m-%d))" \
+            --body "New context/analysis drafts with \`reviewed: false\`. Read each one, edit if needed, set \`reviewed: true\`, then merge. Unreviewed texts are never published."

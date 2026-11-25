@@ -1,0 +1,57 @@
+name: daily
+
+# After the US close on weekdays: prices → series → reactions → indicators → export,
+# commit the published JSON, then deploy.
+on:
+  schedule:
+    - cron: "30 22 * * 1-5"   # 22:30 UTC = after 16:00 New York in both EST and EDT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Tests
+        run: python -m pytest -q tests
+      - name: Prices
+        run: python -m pipeline.fetch_prices
+      - name: Series
+        run: python -m pipeline.build_series
+      - name: Reactions
+        run: python -m pipeline.compute_reactions
+      - name: Indicators
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python -m pipeline.fetch_indicators
+      - name: Export
+        run: python -m pipeline.export
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/public/data
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "data: daily update $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  deploy:
+    needs: update
+    uses: ./.github/workflows/deploy.yml

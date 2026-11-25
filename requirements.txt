@@ -1,0 +1,8 @@
+yfinance==1.8.0
+pandas==3.1.1
+pyarrow==26.0.1
+PyYAML==6.0.4
+requests==2.34.2
+xlrd==2.0.2
+anthropic==2.14.0
+pytest==9.2.0

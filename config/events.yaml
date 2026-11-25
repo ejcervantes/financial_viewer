@@ -1,0 +1,833 @@
+# Curated events. One column per event in the heatmap.
+#
+# announced_at_utc drives the day-0 rule (see pipeline/calendar_rules.py):
+#   base (t-1) = last close strictly before the announcement, per market
+#   day 0      = session in progress at the announcement, else the next session to open
+#
+# Times below are best estimates from the spec's timing notes (WE / AC / ID / pre-market).
+# EVERY event is `verified: false` until its date and UTC time are checked against a
+# primary source. ⚠ marks the dates the spec flags as most uncertain.
+#
+# category: elections | trade | geopolitics | central_banks | crises
+
+# ───────────────────────── Dot-com Bubble ─────────────────────────
+- id: nasdaq_peak_2000
+  title: Nasdaq peaks
+  announced_at_utc: 2000-03-10T15:00:00Z
+  category: crises
+  episode_id: dotcom
+  timing: ID
+  verified: false
+  description: The Nasdaq Composite hits its all-time high of the dot-com era, above 5,000.
+  news_keywords: [Nasdaq, technology stocks, internet stocks]
+
+- id: barrons_burning_up_2000
+  title: Barron's "Burning Up" on dot-com cash burn
+  announced_at_utc: 2000-03-18T12:00:00Z
+  category: crises
+  episode_id: dotcom
+  timing: WE
+  verified: false
+  description: Barron's publishes an analysis showing dozens of internet companies would run out of cash within a year.
+  news_keywords: [internet companies, cash, Barron's]
+
+- id: nasdaq_crash_2000
+  title: Nasdaq falls ~10% in a day
+  announced_at_utc: 2000-04-14T15:00:00Z
+  category: crises
+  episode_id: dotcom
+  timing: ID
+  verified: false
+  description: After a hotter-than-expected CPI report, the Nasdaq suffers one of its largest one-day point drops.
+  news_keywords: [Nasdaq, sell-off, inflation]
+
+- id: fed_surprise_cut_2001
+  title: Fed surprise inter-meeting rate cut
+  announced_at_utc: 2001-01-03T18:13:00Z
+  category: central_banks
+  episode_id: dotcom
+  timing: ID
+  verified: false
+  description: The Federal Reserve cuts the federal funds rate by 50 bp between scheduled meetings.
+  news_keywords: [Federal Reserve, interest rates, Greenspan]
+
+- id: enron_bankruptcy_2001
+  title: Enron files for bankruptcy
+  announced_at_utc: 2001-12-02T16:00:00Z
+  category: crises
+  episode_id: dotcom
+  timing: WE
+  verified: false
+  description: Enron files for Chapter 11, then the largest bankruptcy in US history, after an accounting scandal.
+  news_keywords: [Enron, bankruptcy, accounting]
+
+- id: worldcom_fraud_2002
+  title: WorldCom accounting fraud disclosed
+  announced_at_utc: 2002-06-25T22:00:00Z
+  category: crises
+  episode_id: dotcom
+  timing: AC
+  verified: false
+  description: WorldCom discloses that it improperly booked about $3.8 billion of expenses as capital spending.
+  news_keywords: [WorldCom, accounting, fraud]
+
+- id: sarbanes_oxley_2002
+  title: Sarbanes-Oxley Act signed
+  announced_at_utc: 2002-07-30T15:00:00Z
+  category: crises
+  episode_id: dotcom
+  timing: ID
+  verified: false
+  description: President Bush signs the Sarbanes-Oxley Act, tightening corporate governance and audit rules.
+  news_keywords: [Sarbanes-Oxley, corporate governance, accounting reform]
+
+- id: nasdaq_bottom_2002
+  title: Nasdaq bottoms
+  announced_at_utc: 2002-10-09T15:00:00Z
+  category: crises
+  episode_id: dotcom
+  timing: ID
+  verified: false
+  description: The Nasdaq Composite closes at its bear-market low, down nearly 78% from its peak.
+  news_keywords: [Nasdaq, bear market, stocks]
+
+# ───────────────────────── Global Financial Crisis ─────────────────────────
+- id: shanghai_selloff_2007
+  title: Shanghai sell-off spreads globally
+  announced_at_utc: 2007-02-27T06:00:00Z
+  category: crises
+  episode_id: gfc
+  timing: ID
+  verified: false
+  description: Shanghai stocks fall about 9% in a day and the sell-off spreads to Europe and the US.
+  news_keywords: [Shanghai, stocks, sell-off]
+
+- id: bnp_funds_2007
+  title: BNP Paribas freezes three funds
+  announced_at_utc: 2007-08-09T06:30:00Z
+  category: crises
+  episode_id: gfc
+  timing: ID
+  verified: false
+  description: BNP Paribas suspends three funds exposed to US subprime mortgages, citing evaporated liquidity.
+  news_keywords: [BNP Paribas, subprime, credit markets]
+
+- id: bear_stearns_2008
+  title: Bear Stearns rescued by JPMorgan
+  announced_at_utc: 2008-03-16T22:00:00Z
+  category: crises
+  episode_id: gfc
+  timing: WE
+  verified: false
+  description: JPMorgan agrees to buy Bear Stearns for $2 a share with Federal Reserve backing.
+  news_keywords: [Bear Stearns, JPMorgan, Federal Reserve]
+
+- id: fannie_freddie_2008
+  title: Fannie Mae & Freddie Mac taken over
+  announced_at_utc: 2008-09-07T15:00:00Z
+  category: crises
+  episode_id: gfc
+  timing: WE
+  verified: false
+  description: The US government places Fannie Mae and Freddie Mac into conservatorship.
+  news_keywords: [Fannie Mae, Freddie Mac, mortgage]
+
+- id: lehman_2008
+  title: Lehman Brothers bankruptcy
+  announced_at_utc: 2008-09-15T05:45:00Z
+  category: crises
+  episode_id: gfc
+  timing: WE/pre-market
+  verified: false
+  description: Lehman Brothers files for Chapter 11 after rescue talks fail over the weekend.
+  news_keywords: [Lehman, investment bank, credit crisis]
+
+- id: tarp_rejected_2008
+  title: US House rejects TARP
+  announced_at_utc: 2008-09-29T17:45:00Z
+  category: crises
+  episode_id: gfc
+  timing: ID
+  verified: false
+  description: The House of Representatives votes down the $700 billion bank rescue plan.
+  news_keywords: [bailout, Congress, Wall Street]
+
+- id: china_stimulus_2008
+  title: China announces 4-trillion-yuan stimulus
+  announced_at_utc: 2008-11-09T11:00:00Z
+  category: central_banks
+  episode_id: gfc
+  timing: WE
+  verified: false
+  description: China's State Council unveils a 4-trillion-yuan fiscal stimulus package.
+  news_keywords: [China, stimulus, economy]
+
+- id: fed_qe1_2008
+  title: Fed announces QE1
+  announced_at_utc: 2008-11-25T13:15:00Z
+  category: central_banks
+  episode_id: gfc
+  timing: ID
+  verified: false
+  description: The Fed announces purchases of agency debt and mortgage-backed securities (QE1).
+  news_keywords: [Federal Reserve, mortgage-backed securities, credit]
+
+- id: gfc_bottom_2009
+  title: Global equities bottom
+  announced_at_utc: 2009-03-09T15:00:00Z
+  category: crises
+  episode_id: gfc
+  timing: ID
+  verified: false
+  description: The S&P 500 closes at its financial-crisis low of 676.
+  news_keywords: [stocks, recession, banks]
+
+# ───────────────────────── Euro Debt Crisis ─────────────────────────
+- id: greece_deficit_2009
+  title: Greece revises its deficit sharply upward  # ⚠
+  announced_at_utc: 2009-10-20T12:00:00Z
+  category: crises
+  episode_id: euro_crisis
+  timing: ID
+  verified: false
+  description: Greece's new government says the budget deficit will be far higher than previously reported.
+  news_keywords: [Greece, deficit, euro]
+
+- id: greek_bailout_2010
+  title: First Greek bailout agreed
+  announced_at_utc: 2010-05-02T12:00:00Z
+  category: crises
+  episode_id: euro_crisis
+  timing: WE
+  verified: false
+  description: Eurozone ministers and the IMF agree a €110 billion rescue for Greece.
+  news_keywords: [Greece, bailout, IMF]
+
+- id: us_downgrade_2011
+  title: S&P downgrades US credit rating
+  announced_at_utc: 2011-08-06T00:20:00Z
+  category: crises
+  episode_id: euro_crisis
+  timing: AC
+  verified: false
+  description: Standard & Poor's cuts the US sovereign rating from AAA to AA+ after the debt-ceiling standoff.
+  news_keywords: [Standard & Poor's, downgrade, debt]
+
+- id: whatever_it_takes_2012
+  title: 'Draghi: "whatever it takes"'
+  announced_at_utc: 2012-07-26T10:30:00Z
+  category: central_banks
+  episode_id: euro_crisis
+  timing: ID
+  verified: false
+  description: ECB President Mario Draghi pledges to do whatever it takes to preserve the euro.
+  news_keywords: [Draghi, euro, ECB]
+  official_sources:
+    - label: ECB — speech at the Global Investment Conference
+      url: https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html
+
+- id: ecb_omt_2012
+  title: ECB announces OMT
+  announced_at_utc: 2012-09-06T12:30:00Z
+  category: central_banks
+  episode_id: euro_crisis
+  timing: ID
+  verified: false
+  description: The ECB unveils Outright Monetary Transactions to buy bonds of stressed euro countries.
+  news_keywords: [ECB, bond buying, euro]
+
+# ───────────────────────── China Stock Market Crash ─────────────────────────
+- id: shanghai_peak_2015
+  title: Shanghai Composite peaks
+  announced_at_utc: 2015-06-12T06:00:00Z
+  category: crises
+  episode_id: china_2015
+  timing: ID
+  verified: false
+  description: The Shanghai Composite peaks above 5,100 after a margin-fuelled rally.
+  news_keywords: [Shanghai, China stocks, margin]
+
+- id: shanghai_plunge_2015
+  title: Shanghai falls ~8.5%
+  announced_at_utc: 2015-07-27T06:00:00Z
+  category: crises
+  episode_id: china_2015
+  timing: ID
+  verified: false
+  description: The Shanghai Composite drops about 8.5%, its worst day since 2007.
+  news_keywords: [Shanghai, China stocks, plunge]
+
+- id: yuan_devaluation_2015
+  title: PBoC devalues the yuan
+  announced_at_utc: 2015-08-11T01:15:00Z
+  category: central_banks
+  episode_id: china_2015
+  timing: ID
+  verified: false
+  description: The People's Bank of China cuts the yuan's reference rate by nearly 2% and changes its fixing method.
+  news_keywords: [yuan, devaluation, People's Bank of China]
+
+- id: black_monday_2015
+  title: '"Black Monday": China-led global sell-off'
+  announced_at_utc: 2015-08-24T02:00:00Z
+  category: crises
+  episode_id: china_2015
+  timing: ID
+  verified: false
+  description: Chinese stocks fall over 8% and trigger a global sell-off; the Dow drops 1,000 points at the open.
+  news_keywords: [China, stocks, global sell-off]
+
+- id: circuit_breaker_2016
+  title: China suspends circuit breaker after second halt
+  announced_at_utc: 2016-01-07T02:00:00Z
+  category: crises
+  episode_id: china_2015
+  timing: ID
+  verified: false
+  description: Chinese markets halt for the day within 30 minutes; regulators then scrap the new circuit breaker.
+  news_keywords: [China, circuit breaker, stocks]
+
+# ───────────────────────── COVID-19 ─────────────────────────
+- id: wuhan_cluster_2019
+  title: Wuhan reports pneumonia cluster to WHO
+  announced_at_utc: 2019-12-31T12:00:00Z
+  category: crises
+  episode_id: covid
+  timing: ID
+  verified: false
+  description: Chinese authorities report a cluster of pneumonia cases of unknown cause in Wuhan.
+  news_keywords: [Wuhan, pneumonia, virus]
+
+- id: wuhan_lockdown_2020
+  title: Wuhan lockdown
+  announced_at_utc: 2020-01-23T02:00:00Z
+  category: crises
+  episode_id: covid
+  timing: ID
+  verified: false
+  description: China locks down Wuhan, a city of 11 million, to contain the new coronavirus.
+  news_keywords: [Wuhan, coronavirus, quarantine]
+
+- id: italy_quarantine_2020
+  title: Italy quarantines northern towns
+  announced_at_utc: 2020-02-23T12:00:00Z
+  category: crises
+  episode_id: covid
+  timing: WE
+  verified: false
+  description: Italy seals off towns in Lombardy and Veneto as Europe's first major outbreak emerges.
+  news_keywords: [Italy, coronavirus, quarantine]
+
+- id: who_pandemic_2020
+  title: WHO declares a pandemic
+  announced_at_utc: 2020-03-11T17:00:00Z
+  category: crises
+  episode_id: covid
+  timing: ID
+  verified: false
+  description: The World Health Organization characterizes COVID-19 as a pandemic.
+  news_keywords: [WHO, pandemic, coronavirus]
+
+- id: fed_zero_2020
+  title: Fed cuts rates to zero
+  announced_at_utc: 2020-03-15T21:00:00Z
+  category: central_banks
+  episode_id: covid
+  timing: WE
+  verified: false
+  description: In an emergency Sunday move the Fed cuts rates to 0–0.25% and restarts asset purchases.
+  news_keywords: [Federal Reserve, interest rates, coronavirus]
+
+- id: fed_unlimited_qe_2020
+  title: Fed announces unlimited QE; market bottom
+  announced_at_utc: 2020-03-23T12:00:00Z
+  category: central_banks
+  episode_id: covid
+  timing: pre-market
+  verified: false
+  description: The Fed commits to open-ended asset purchases and new credit facilities; US stocks bottom that day.
+  news_keywords: [Federal Reserve, quantitative easing, credit]
+
+- id: pfizer_vaccine_2020
+  title: Pfizer announces vaccine efficacy
+  announced_at_utc: 2020-11-09T11:45:00Z
+  category: crises
+  episode_id: covid
+  timing: pre-market
+  verified: false
+  description: Pfizer and BioNTech report their vaccine is more than 90% effective in a late-stage trial.
+  news_keywords: [Pfizer, vaccine, BioNTech]
+
+# ───────────────────────── Inflation & Rate Shock ─────────────────────────
+- id: cpi_jump_2021
+  title: US CPI jumps to 4.2%
+  announced_at_utc: 2021-05-12T12:30:00Z
+  category: crises
+  episode_id: inflation
+  timing: pre-market
+  verified: false
+  description: US consumer prices rise 4.2% year over year, the fastest pace since 2008.
+  news_keywords: [inflation, consumer prices, Federal Reserve]
+
+- id: powell_transitory_2021
+  title: Powell retires "transitory"
+  announced_at_utc: 2021-11-30T15:00:00Z
+  category: central_banks
+  episode_id: inflation
+  timing: ID
+  verified: false
+  description: Fed Chair Powell tells Congress it is time to retire the word "transitory" for inflation.
+  news_keywords: [Powell, inflation, transitory]
+
+- id: fed_first_hike_2022
+  title: Fed's first hike of the cycle
+  announced_at_utc: 2022-03-16T18:00:00Z
+  category: central_banks
+  episode_id: inflation
+  timing: ID
+  verified: false
+  description: The Fed raises rates by 25 bp, its first hike since 2018.
+  news_keywords: [Federal Reserve, rate hike, inflation]
+
+- id: fed_75bp_2022
+  title: Fed hikes 75 bp
+  announced_at_utc: 2022-06-15T18:00:00Z
+  category: central_banks
+  episode_id: inflation
+  timing: ID
+  verified: false
+  description: The Fed raises rates by 75 bp, its largest hike since 1994.
+  news_keywords: [Federal Reserve, rate hike, inflation]
+
+- id: ecb_first_hike_2022
+  title: ECB's first hike in 11 years
+  announced_at_utc: 2022-07-21T12:15:00Z
+  category: central_banks
+  episode_id: inflation
+  timing: ID
+  verified: false
+  description: The ECB raises rates by 50 bp, ending eight years of negative rates.
+  news_keywords: [ECB, rate hike, euro]
+
+- id: uk_mini_budget_2022
+  title: UK "mini-budget" gilt crisis
+  announced_at_utc: 2022-09-23T08:30:00Z
+  category: crises
+  episode_id: inflation
+  timing: ID
+  verified: false
+  description: Unfunded UK tax cuts trigger a collapse in gilts and sterling, forcing Bank of England intervention.
+  news_keywords: [mini-budget, gilts, sterling]
+
+# ───────────────────────── AI Boom ─────────────────────────
+- id: chatgpt_launch_2022
+  title: ChatGPT launches
+  announced_at_utc: 2022-11-30T18:00:00Z
+  category: crises
+  episode_id: ai_boom
+  timing: ID
+  verified: false
+  description: OpenAI releases ChatGPT to the public as a free research preview.
+  news_keywords: [OpenAI, chatbot, artificial intelligence]
+
+- id: nvidia_guidance_2023
+  title: Nvidia's guidance blowout
+  announced_at_utc: 2023-05-24T20:20:00Z
+  category: crises
+  episode_id: ai_boom
+  timing: AC
+  verified: false
+  description: Nvidia forecasts quarterly revenue far above expectations on demand for AI chips.
+  news_keywords: [Nvidia, AI chips, earnings]
+
+- id: chip_controls_2023
+  title: US expands chip export controls
+  announced_at_utc: 2023-10-17T14:00:00Z
+  category: trade
+  episode_id: ai_boom
+  timing: ID
+  verified: false
+  description: The US Commerce Department tightens restrictions on exports of advanced AI chips to China.
+  news_keywords: [export controls, chips, China]
+
+- id: nvidia_most_valuable_2024
+  title: Nvidia becomes the world's most valuable company
+  announced_at_utc: 2024-06-18T18:00:00Z
+  category: crises
+  episode_id: ai_boom
+  timing: ID
+  verified: false
+  description: Nvidia overtakes Microsoft as the world's most valuable listed company.
+  news_keywords: [Nvidia, market value, artificial intelligence]
+
+- id: deepseek_2025
+  title: DeepSeek sell-off
+  announced_at_utc: 2025-01-25T12:00:00Z
+  category: crises
+  episode_id: ai_boom
+  timing: WE (reaction on Monday)
+  verified: false
+  description: A low-cost Chinese AI model from DeepSeek prompts a sell-off in AI and chip stocks.
+  news_keywords: [DeepSeek, artificial intelligence, Nvidia]
+
+- id: nvidia_5t_2025
+  title: Nvidia reaches a $5T market cap  # ⚠
+  announced_at_utc: 2025-10-29T14:00:00Z
+  category: crises
+  episode_id: ai_boom
+  timing: ID
+  verified: false
+  description: Nvidia becomes the first company to reach a $5 trillion market value.
+  news_keywords: [Nvidia, market value, artificial intelligence]
+
+# ───────────────────────── Standalone events ─────────────────────────
+- id: us_election_2000
+  title: US presidential election (Bush v. Gore, disputed)
+  announced_at_utc: 2000-11-08T05:00:00Z
+  category: elections
+  timing: AC
+  verified: false
+  description: The US presidential election ends without a clear winner, starting a five-week recount dispute.
+  news_keywords: [election, Bush, Gore]
+
+- id: sept_11_2001
+  title: 9/11 attacks
+  announced_at_utc: 2001-09-11T12:46:00Z
+  category: geopolitics
+  timing: ID (US closed until Sep 17)
+  verified: false
+  description: Terrorist attacks on New York and Washington; US stock markets stay closed until September 17.
+  news_keywords: [terrorism, attack, New York]
+
+- id: china_wto_2001
+  title: China joins the WTO
+  announced_at_utc: 2001-12-11T02:00:00Z
+  category: trade
+  timing: ID
+  verified: false
+  description: China formally becomes a member of the World Trade Organization.
+  news_keywords: [China, WTO, trade]
+
+- id: iraq_invasion_2003
+  title: US invades Iraq
+  announced_at_utc: 2003-03-20T03:15:00Z
+  category: geopolitics
+  timing: ID
+  verified: false
+  description: US-led forces begin military operations in Iraq.
+  news_keywords: [Iraq, war, oil]
+
+- id: us_election_2008
+  title: US presidential election (Obama)
+  announced_at_utc: 2008-11-05T04:00:00Z
+  category: elections
+  timing: AC
+  verified: false
+  description: Barack Obama wins the US presidential election in the middle of the financial crisis.
+  news_keywords: [election, Obama, economy]
+
+- id: taper_tantrum_2013
+  title: Taper tantrum (Bernanke testimony)
+  announced_at_utc: 2013-05-22T14:00:00Z
+  category: central_banks
+  timing: ID
+  verified: false
+  description: Bernanke tells Congress the Fed could slow bond purchases, sending yields sharply higher.
+  news_keywords: [Bernanke, taper, bond yields]
+
+- id: crimea_2014
+  title: Russia authorizes force in Crimea
+  announced_at_utc: 2014-03-01T14:00:00Z
+  category: geopolitics
+  timing: WE
+  verified: false
+  description: Russia's upper house authorizes the use of military force in Ukraine.
+  news_keywords: [Russia, Ukraine, Crimea]
+
+- id: ecb_negative_2014
+  title: ECB introduces negative rates
+  announced_at_utc: 2014-06-05T11:45:00Z
+  category: central_banks
+  timing: ID
+  verified: false
+  description: The ECB becomes the first major central bank to set a negative deposit rate.
+  news_keywords: [ECB, negative rates, deflation]
+
+- id: snb_franc_2015
+  title: SNB scraps the franc cap
+  announced_at_utc: 2015-01-15T09:30:00Z
+  category: central_banks
+  timing: ID
+  verified: false
+  description: The Swiss National Bank abandons its EUR/CHF 1.20 floor; the franc surges.
+  news_keywords: [Swiss franc, SNB, currency]
+
+- id: greek_referendum_2015
+  title: Greek bailout referendum
+  announced_at_utc: 2015-07-05T19:00:00Z
+  category: elections
+  timing: WE
+  verified: false
+  description: Greek voters reject the creditors' bailout terms by a wide margin.
+  news_keywords: [Greece, referendum, bailout]
+
+- id: fed_liftoff_2015
+  title: Fed's first hike since 2006
+  announced_at_utc: 2015-12-16T19:00:00Z
+  category: central_banks
+  timing: ID
+  verified: false
+  description: The Fed raises rates for the first time in almost a decade.
+  news_keywords: [Federal Reserve, rate hike, Yellen]
+
+- id: brexit_2016
+  title: Brexit referendum
+  announced_at_utc: 2016-06-24T03:40:00Z
+  category: elections
+  timing: AC (result overnight)
+  verified: false
+  description: The UK votes to leave the European Union.
+  news_keywords: [Brexit, referendum, European Union]
+
+- id: us_election_2016
+  title: US presidential election (Trump)
+  announced_at_utc: 2016-11-09T03:00:00Z
+  category: elections
+  timing: AC
+  verified: false
+  description: Donald Trump wins the US presidential election against market expectations.
+  news_keywords: [election, Trump, Clinton]
+
+- id: french_election_2017
+  title: French presidential runoff (Macron)
+  announced_at_utc: 2017-05-07T18:00:00Z
+  category: elections
+  timing: WE
+  verified: false
+  description: Emmanuel Macron defeats Marine Le Pen in the French presidential runoff.
+  news_keywords: [France, election, Macron]
+
+- id: steel_tariffs_2018
+  title: US steel & aluminum tariffs announced
+  announced_at_utc: 2018-03-01T16:45:00Z
+  category: trade
+  timing: ID
+  verified: false
+  description: President Trump announces tariffs of 25% on steel and 10% on aluminum imports.
+  news_keywords: [tariffs, steel, aluminum]
+
+- id: china_tariffs_2018
+  title: First US tariffs on Chinese goods take effect
+  announced_at_utc: 2018-07-06T04:01:00Z
+  category: trade
+  timing: pre-market
+  verified: false
+  description: US tariffs on $34 billion of Chinese imports take effect; China retaliates.
+  news_keywords: [tariffs, China, trade war]
+
+- id: us_midterms_2018
+  title: US midterm elections
+  announced_at_utc: 2018-11-07T04:00:00Z
+  category: elections
+  timing: AC
+  verified: false
+  description: Democrats win the House while Republicans keep the Senate.
+  news_keywords: [midterm elections, Congress, Democrats]
+
+- id: tariff_escalation_2019
+  title: US escalates China tariffs
+  announced_at_utc: 2019-05-05T16:00:00Z
+  category: trade
+  timing: WE
+  verified: false
+  description: President Trump says tariffs on $200 billion of Chinese goods will rise to 25%.
+  news_keywords: [tariffs, China, trade war]
+
+- id: abqaiq_2019
+  title: Attack on Saudi Abqaiq oil facility
+  announced_at_utc: 2019-09-14T01:00:00Z
+  category: geopolitics
+  timing: WE
+  verified: false
+  description: Drone and missile strikes knock out about half of Saudi Arabia's oil output.
+  news_keywords: [Saudi Arabia, oil, attack]
+
+- id: soleimani_2020
+  title: US kills Soleimani
+  announced_at_utc: 2020-01-03T02:45:00Z
+  category: geopolitics
+  timing: pre-market
+  verified: false
+  description: A US strike in Baghdad kills Iranian general Qassem Soleimani.
+  news_keywords: [Iran, Soleimani, oil]
+
+- id: phase_one_2020
+  title: US–China Phase One deal signed
+  announced_at_utc: 2020-01-15T16:30:00Z
+  category: trade
+  timing: ID
+  verified: false
+  description: The US and China sign the Phase One trade agreement.
+  news_keywords: [trade deal, China, tariffs]
+
+- id: us_election_2020
+  title: US presidential election (Biden)
+  announced_at_utc: 2020-11-04T05:00:00Z
+  category: elections
+  timing: AC
+  verified: false
+  description: The US presidential election goes to a days-long count; Joe Biden is projected the winner on November 7.
+  news_keywords: [election, Biden, Trump]
+
+- id: ukraine_invasion_2022
+  title: Russia invades Ukraine
+  announced_at_utc: 2022-02-24T02:50:00Z
+  category: geopolitics
+  timing: pre-market (Europe ID)
+  verified: false
+  description: Russia launches a full-scale invasion of Ukraine.
+  news_keywords: [Russia, Ukraine, invasion]
+
+- id: chip_controls_2022
+  title: US chip export controls on China
+  announced_at_utc: 2022-10-07T18:00:00Z
+  category: trade
+  timing: ID
+  verified: false
+  description: The US restricts exports of advanced chips and chipmaking equipment to China.
+  news_keywords: [export controls, semiconductors, China]
+
+- id: us_midterms_2022
+  title: US midterm elections
+  announced_at_utc: 2022-11-09T05:00:00Z
+  category: elections
+  timing: AC
+  verified: false
+  description: Republicans narrowly win the House; the expected "red wave" does not materialize.
+  news_keywords: [midterm elections, Congress, Republicans]
+
+- id: svb_2023
+  title: Silicon Valley Bank collapses
+  announced_at_utc: 2023-03-10T13:00:00Z
+  category: crises
+  timing: ID
+  verified: false
+  description: Regulators close Silicon Valley Bank after a deposit run, the largest US bank failure since 2008.
+  news_keywords: [Silicon Valley Bank, bank failure, deposits]
+
+- id: ubs_credit_suisse_2023
+  title: UBS takes over Credit Suisse
+  announced_at_utc: 2023-03-19T18:30:00Z
+  category: crises
+  timing: WE
+  verified: false
+  description: UBS agrees a government-brokered takeover of Credit Suisse; AT1 bonds are written off.
+  news_keywords: [Credit Suisse, UBS, banks]
+
+- id: gallium_germanium_2023
+  title: China restricts gallium & germanium exports
+  announced_at_utc: 2023-07-03T12:00:00Z
+  category: trade
+  timing: ID
+  verified: false
+  description: China announces export licensing for gallium and germanium, metals used in chips.
+  news_keywords: [gallium, germanium, export controls]
+
+- id: hamas_attack_2023
+  title: Hamas attack on Israel
+  announced_at_utc: 2023-10-07T03:30:00Z
+  category: geopolitics
+  timing: WE
+  verified: false
+  description: Hamas launches a large-scale attack on Israel, starting the Gaza war.
+  news_keywords: [Israel, Hamas, Gaza]
+
+- id: eu_elections_2024
+  title: EU Parliament elections; Macron dissolves Assembly
+  announced_at_utc: 2024-06-09T19:00:00Z
+  category: elections
+  timing: WE
+  verified: false
+  description: Far-right gains in the EU elections lead Macron to call a snap French legislative election.
+  news_keywords: [European elections, Macron, France]
+
+- id: yen_carry_2024
+  title: Yen carry-trade unwind
+  announced_at_utc: 2024-08-05T02:00:00Z
+  category: crises
+  timing: ID
+  verified: false
+  description: Japan's Nikkei falls 12% as yen-funded carry trades unwind, hitting global markets.
+  news_keywords: [yen, carry trade, Nikkei]
+
+- id: fed_first_cut_2024
+  title: Fed's first cut of the cycle (50 bp)
+  announced_at_utc: 2024-09-18T18:00:00Z
+  category: central_banks
+  timing: ID
+  verified: false
+  description: The Fed starts its easing cycle with a 50 bp cut.
+  news_keywords: [Federal Reserve, rate cut, Powell]
+
+- id: us_election_2024
+  title: US presidential election (Trump)
+  announced_at_utc: 2024-11-06T05:00:00Z
+  category: elections
+  timing: AC
+  verified: false
+  description: Donald Trump wins a second term as US president.
+  news_keywords: [election, Trump, Harris]
+
+- id: german_election_2025
+  title: German federal election
+  announced_at_utc: 2025-02-23T17:00:00Z
+  category: elections
+  timing: WE
+  verified: false
+  description: The CDU/CSU led by Friedrich Merz wins Germany's federal election.
+  news_keywords: [Germany, election, Merz]
+
+- id: liberation_day_2025
+  title: '"Liberation Day" tariffs'
+  announced_at_utc: 2025-04-02T20:05:00Z
+  category: trade
+  timing: AC
+  verified: false
+  description: President Trump announces sweeping "reciprocal" tariffs on most US trading partners.
+  news_keywords: [tariffs, Trump, trade]
+
+- id: tariff_pause_2025
+  title: 90-day tariff pause
+  announced_at_utc: 2025-04-09T17:18:00Z
+  category: trade
+  timing: ID
+  verified: false
+  description: The US pauses most reciprocal tariffs for 90 days while raising tariffs on China.
+  news_keywords: [tariffs, pause, China]
+
+- id: israel_iran_2025
+  title: Israel strikes Iran
+  announced_at_utc: 2025-06-13T00:30:00Z
+  category: geopolitics
+  timing: pre-market
+  verified: false
+  description: Israel launches strikes on Iranian nuclear and military sites.
+  news_keywords: [Israel, Iran, oil]
+
+- id: rare_earths_2025
+  title: China expands rare-earth export controls  # ⚠
+  announced_at_utc: 2025-10-09T06:00:00Z
+  category: trade
+  timing: ID
+  verified: false
+  description: China broadens export controls on rare earths and related technologies.
+  news_keywords: [rare earths, export controls, China]
+
+- id: us_midterms_2026
+  title: US midterm elections
+  announced_at_utc: 2026-11-04T05:00:00Z
+  category: elections
+  timing: AC
+  verified: false
+  description: US midterm elections for Congress.
+  news_keywords: [midterm elections, Congress]
