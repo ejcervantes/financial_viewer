@@ -15,8 +15,8 @@ export default function Footer({ meta }: { meta: Meta }) {
           <li>Baskets use current large caps; historical results may carry survivorship bias.</li>
           <li>Longer horizons include other news; reactions are not attributable to a single event.</li>
           <li>Episode drawdown = largest peak-to-trough fall of the sector inside the episode's dates.</li>
-          <li>Context and analysis texts are AI-generated and reviewed, but may be inaccurate. Not financial advice.</li>
-          <li>News data provided by The New York Times and The Guardian. Uncertainty indices: Baker, Bloom & Davis (EPU); Caldara & Iacoviello (GPR).</li>
+          <li>Context and analysis texts are written by an AI model (Claude) from the numbers shown and general historical knowledge. They may be inaccurate. Not financial advice.</li>
+          <li>Uncertainty indices: Baker, Bloom & Davis (EPU); Caldara & Iacoviello (GPR).</li>
         </ul>
       </details>
       <p className="attrib">

@@ -1,0 +1,1193 @@
+{
+  "nasdaq_peak_2000": {
+    "context": {
+      "text": "On March 10, 2000 the Nasdaq Composite closed just above 5,000, roughly double its level of a year earlier, after a run led by internet, software and telecom stocks. Many of the companies driving the rally had little or no profit, and the Federal Reserve had been raising interest rates since mid-1999. A peak is only recognisable in hindsight, so this column marks the top of the bubble rather than a single piece of news.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The striking move is a rotation away from technology rather than a crash. US tech was flat in the first week while the S&P 500 rose 4.6%, and it lagged the market by 13.5 points over three months. Money moved into 'old economy' sectors: US banks gained 16% in a week and 27% over three months, and consumer staples rose 20% over three months. Because a market top is not an announcement, these moves reflect a shift in sentiment already under way rather than a reaction to one day's news.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "barrons_burning_up_2000": {
+    "context": {
+      "text": "In March 2000 Barron's published an analysis estimating how long dozens of loss-making internet companies could keep operating on the cash they had left, concluding that many would run out within a year. It landed a week after the Nasdaq's peak, when investors were starting to question valuations that depended on raising fresh capital.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "There was no immediate punishment: US tech rose 7.7% in the first week, beating the market. The damage came later, with tech down 7.9% after a month while consumer staples gained 15% over three months and energy 14%. That pattern fits investors slowly moving from cash-burning growth stories to companies with steady earnings, but the article was one of many warnings at the time, so the later decline cannot be pinned on it alone. Hong Kong metals rose 26% over three months on a two-stock basket, which looks unrelated to the US story.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "nasdaq_crash_2000": {
+    "context": {
+      "text": "On April 14, 2000 the Nasdaq fell nearly 10% in a single session, capping its worst week on record. A hotter-than-expected US consumer price report that morning raised fears that the Fed would keep raising rates, adding to a sell-off in technology stocks that had been building since the March peak.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Measured from the close before the crash, the losses were small and short-lived: US tech was down only 1.9% a week later and up 9.9% after three months, because stocks bounced in the following days. Consumer staples were the one US sector to gain in the first week, consistent with a brief move to defensive shares. The modest numbers say more about the timing of the base than about the size of the shock, since much of the selling had already happened earlier that week.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "fed_surprise_cut_2001": {
+    "context": {
+      "text": "On January 3, 2001 the Federal Reserve cut its key rate by half a point to 6% in a move between scheduled meetings, a rare step that signalled concern about a slowing economy. The decision came after months of falling technology stocks and weakening corporate profits.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Technology reacted most: US tech jumped 15.7% in a week, beating the market by 13 points, as cheaper money revived hopes for growth stocks. Defensive sectors went the other way, with consumer staples down 6.7% and energy down 5.7% as investors swapped safety for risk. The rally did not last; after three months tech was down 25% and the S&P 500 14%, as earnings kept falling and the economy slipped into recession. A rate cut helped sentiment briefly but did not change the underlying downturn.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "enron_bankruptcy_2001": {
+    "context": {
+      "text": "Enron filed for Chapter 11 on December 2, 2001, at the time the largest bankruptcy in US history, after revelations that it had hidden debt in off-balance-sheet partnerships. Its collapse had been unfolding for weeks, and a planned rescue merger with Dynegy fell apart days before the filing.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The bankruptcy barely registered at the sector level. The S&P 500 was flat over the following week and US energy, Enron's own sector, gained 1.0% in a week and 11.4% over three months. This fits an outcome that was already expected and priced in by the time of the filing. The wider damage from Enron came through lost trust in corporate accounts, which shows up more clearly in later events such as WorldCom.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "worldcom_fraud_2002": {
+    "context": {
+      "text": "On June 25, 2002 WorldCom said it had booked about $3.8 billion of ordinary expenses as capital spending, inflating its profits. The disclosure followed Enron, Tyco and other scandals, and deepened doubts about whether company accounts could be trusted.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The reaction was a broad sell-off rather than a sector story: the S&P 500 fell 12.3% within a month and most US sectors moved close to the market. Energy (-17.6%) and banks (-14.3%) were among the weakest over the month, while consumer staples held up best, beating the market by 4 points. The fall in July 2002 also reflected weak earnings and a long bear market, so the scandal was one driver among several.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "sarbanes_oxley_2002": {
+    "context": {
+      "text": "On July 30, 2002 President Bush signed the Sarbanes-Oxley Act, which created new audit oversight and made executives personally certify their companies' accounts. Congress passed it quickly in response to the Enron and WorldCom scandals, during a sharp fall in stock prices.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The law itself did not move sectors much. Measured from the close before the signing, which came after a big rebound day, the S&P 500 fell 3.5% in a week and most US sectors moved in line with it. Over one and three months the differences between sectors stayed within a few points, which suggests markets were reacting to the bear market and the economy rather than to the new rules.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "nasdaq_bottom_2002": {
+    "context": {
+      "text": "On October 9, 2002 the Nasdaq Composite closed near 1,114, down almost 78% from its March 2000 peak, and the S&P 500 also hit its bear-market low. Like the peak, the bottom is only clear in hindsight; it came amid worries about the economy and a possible war with Iraq.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The rebound favoured the sectors that had fallen hardest. US tech rose 31% in a month and 41% over three months, beating the market by 25 points, and US banks gained 22% over three months. Consumer staples barely moved and lagged the market by 16 points, a typical pattern when investors move back into risk after a long decline. These moves describe the turn in the cycle rather than a reaction to any single piece of news.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "shanghai_selloff_2007": {
+    "context": {
+      "text": "On February 27, 2007 Shanghai stocks fell about 9%, their largest drop in a decade, after a long rally and rumours of new curbs on speculation. The sell-off spread to Europe and the US the same day, where it combined with weak US economic data and talk of a possible recession.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "In the US the damage was brief and even: the S&P 500 fell 3.8% in a week and most sectors moved with it, then recovered within three months. Hong Kong-listed Chinese shares took larger hits, with consumer staples (-16%), auto (-15%) and metals (-15%) all well below the Hang Seng's 7% fall in the first week. The mainland defense basket, measured against the Shanghai Composite, nearly doubled over three months as the A-share bubble resumed, which shows how quickly local buying returned.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "bnp_funds_2007": {
+    "context": {
+      "text": "On August 9, 2007 BNP Paribas froze withdrawals from three investment funds, saying it could no longer value their US subprime mortgage holdings. The European Central Bank injected emergency liquidity the same day, and the move is often seen as the start of the global credit crunch.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The first week was a broad sell-off, with the S&P 500 down 5.2% and US metals down 9.9%. The telling move came later: US banks fell 12.9% over three months, lagging the market by 12 points, as losses on mortgage securities spread through the system. Hong Kong went the other way, rising 28% over three months on local factors, so Chinese sectors' gains in this window should not be read as a response to the credit crisis.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "bear_stearns_2008": {
+    "context": {
+      "text": "On March 16, 2008 JPMorgan agreed to buy Bear Stearns for $2 a share, with the Federal Reserve taking on $30 billion of its riskiest assets. The rescue came after a run on the investment bank that week; the Fed also opened emergency lending to other securities dealers.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The rescue brought relief: US banks rose 11.6% in a week, beating the market by 7 points, and European banks also gained. The relief faded, with US banks lagging the market by 6.5 points over three months as the crisis continued. Energy and metals rose strongly over three months, in line with the commodity boom of early 2008 rather than the rescue itself. In China, the A-share defense basket and Hong Kong metals fell sharply as the mainland market was already in its own decline.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "fannie_freddie_2008": {
+    "context": {
+      "text": "On September 7, 2008 the US government placed Fannie Mae and Freddie Mac, the two giant mortgage-finance companies, into conservatorship after their losses on home loans threatened their solvency. The takeover came a week before Lehman Brothers' collapse, as fears about bank balance sheets were peaking.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "US banks fell 12.2% in a week, lagging the market by 9 points, and US metals fell 14.4%. Over the next three months almost everything fell, with the S&P 500 down 29% and US metals down 64%, while consumer staples beat the market by 13 points in both the US and Europe. These longer horizons are dominated by the Lehman bankruptcy and the wider crash that followed, so they cannot be attributed to this takeover alone.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "lehman_2008": {
+    "context": {
+      "text": "Lehman Brothers filed for Chapter 11 in the early hours of September 15, 2008, after weekend talks to rescue it failed. The same weekend Merrill Lynch agreed to be sold to Bank of America, and within days the US government stepped in to support the insurer AIG.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The first week was milder than the event's reputation suggests, with the S&P 500 down 3.2%, because markets rallied late in the week on talk of a government bank rescue and a ban on short-selling financial shares. The real damage came over the following weeks: after three months banks were down 42% in both the US and Europe, and metals had fallen more than 50%. Consumer staples lost less than the market in both regions, as is typical in a crisis. In China, staples fell 22% in the first week, which overlaps with the melamine milk scandal that hit Mengniu, one of the basket's four stocks, so that move is not only about Lehman.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "tarp_rejected_2008": {
+    "context": {
+      "text": "On September 29, 2008 the US House of Representatives voted down the $700 billion bank rescue plan, and the Dow fell nearly 778 points, its largest point drop at the time. A revised version passed later that week, but credit markets remained frozen.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The week after the vote was one of the worst on record, with the S&P 500 down 13.3% and US metals down 29%. Banks fell 17% in the US and 29% in Europe within a month, and consumer staples beat the market by about 8-10 points in both regions as investors fled to safer businesses. The later passage of the plan did not stop the slide, which points to fears about the economy and the banks rather than the vote itself. Chinese industrials rose 41% over three months, which reflects Beijing's stimulus announced in November.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "china_stimulus_2008": {
+    "context": {
+      "text": "On November 9, 2008 China's State Council announced a 4-trillion-yuan stimulus plan, focused on infrastructure, housing and rebuilding after the Sichuan earthquake. It was one of the largest responses to the global crisis and came as Chinese exports were slowing sharply.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The reaction split clearly along geography. Hong Kong-listed Chinese industrials, mainly construction and railway builders, rose 19% in the first week, beating the Hang Seng by 24 points, and Chinese metals rose 38% in a month and 78% over three months. Western markets kept falling, with US and European banks down 16-18% in a week. These are the sectors that would benefit most from spending on roads, railways and buildings, but the baskets are small and other news later in the window also shaped the three-month figures.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "fed_qe1_2008": {
+    "context": {
+      "text": "On November 25, 2008 the Federal Reserve announced it would buy up to $600 billion of mortgage-backed securities and debt issued by housing agencies, the first round of what became known as quantitative easing. The announcement came two days after a government rescue of Citigroup.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Banks gained first, with US banks up 7.6% in a week, but the gain reversed: after three months they were down 31%, lagging the market by 18 points, as losses kept mounting into early 2009. Chinese sectors did best, with auto up 32% and metals up 43% in a month, which reflects China's own stimulus and interest-rate cuts in the same weeks more than the Fed's move. QE1 lowered mortgage rates but did not end the bank crisis, which matches these numbers.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "gfc_bottom_2009": {
+    "context": {
+      "text": "On March 9, 2009 the S&P 500 closed at 676, its lowest point of the financial crisis and less than half its 2007 peak. The turning point was not obvious at the time; it came just before a series of policy moves, including an expansion of the Fed's bond buying and a plan to remove toxic assets from banks.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The rebound was led by the sectors hit hardest in the crash. Banks rose about 30% in a week and roughly doubled over three months in both the US and Europe, beating their markets by more than 65 points. Metals and industrials also rallied strongly, while consumer staples lagged by around 17 points as investors moved back from safe shares to cyclical ones. Like any market bottom, this column describes the turn of the cycle rather than a reaction to a single announcement.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "greece_deficit_2009": {
+    "context": {
+      "text": "In October 2009 Greece's newly elected government said the budget deficit would be more than 12% of GDP, roughly double the previous government's estimate. The revision undermined trust in Greek statistics, though the full crisis only took hold months later.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The immediate reaction was mild: the European market fell 2.7% in a week, in line with the US. European banks were the main exception, falling 6% in a week and 10% over three months, lagging the market by 11 points, which fits growing worries about banks holding government debt. European consumer staples rose 11% over three months, beating the market by 10 points, a defensive tilt. Markets did not treat this as a crisis at first, and the date of the announcement is still being verified.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "greek_bailout_2010": {
+    "context": {
+      "text": "On May 2, 2010 eurozone ministers and the IMF agreed a €110 billion loan package for Greece in exchange for deep spending cuts. Days later came the US 'flash crash' on May 6 and a much larger €750 billion European safety net on May 9-10.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The bailout did not calm markets: the European market fell 4.4% and the US 7.1% within a month. European banks fell 9.1% in that month, lagging the market by 4.7 points, as doubts spread to other indebted countries. European energy lagged by 11 points over three months, which more likely reflects BP's Gulf of Mexico oil spill and falling oil prices than the bailout. With several major events in the same weeks, the moves here cannot be pinned on one decision.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "us_downgrade_2011": {
+    "context": {
+      "text": "On the evening of August 5, 2011 Standard & Poor's downgraded the US government's credit rating from AAA to AA+, citing the political brinkmanship over the debt ceiling. At the same time, the euro debt crisis was spreading to Italy and Spain.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "US stocks fell sharply on the first trading day after the downgrade but recovered within the week, so the S&P 500 was up 0.4% after five sessions. Europe fared much worse: European banks fell 16% and autos 17% in a month as the euro crisis deepened. Chinese autos and industrials also fell hard, by 28.5% and 17% in a month. The numbers suggest that the euro crisis and fears of a global slowdown mattered more for sectors than the downgrade itself.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "whatever_it_takes_2012": {
+    "context": {
+      "text": "On July 26, 2012, speaking at an investment conference in London, ECB President Mario Draghi said the central bank was ready to do 'whatever it takes' to preserve the euro. Spanish and Italian borrowing costs had climbed to levels that raised fears of a eurozone break-up.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "European banks were the clearest winners, rising 5.7% in a week, 15.5% in a month and 27% over three months, beating the European market by 20 points. That fits a sector whose balance sheets were full of the government bonds Draghi's pledge was meant to protect. The wider market also rose, with Europe up 6.9% over three months, so part of the gain was a general relief rally. US metals rose 20% over three months, which more likely reflects hopes for Fed and Chinese stimulus later that year.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "ecb_omt_2012": {
+    "context": {
+      "text": "On September 6, 2012 the ECB unveiled Outright Monetary Transactions, a programme to buy unlimited amounts of short-term bonds of eurozone countries that accepted a rescue programme. It turned Draghi's July pledge into a concrete tool; the Fed announced open-ended bond buying a week later.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "European banks again led, gaining 8.2% in a week and beating the market by 5.4 points, and over three months their lead widened to 11 points. Metals jumped in all three markets in the first week, by 15% in the US and 18% in China, but that window also includes the Fed's QE3 announcement and reports of new Chinese infrastructure approvals, so it cannot be credited to the ECB alone. Consumer staples lagged in Europe as investors moved into riskier sectors.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "shanghai_peak_2015": {
+    "context": {
+      "text": "On June 12, 2015 the Shanghai Composite peaked above 5,100, having more than doubled in a year on a wave of borrowed money from retail investors. Regulators had started to tighten rules on margin lending, and the market began to fall within days.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Outside China the first week was calm, with the S&P 500 flat. Over three months the Hang Seng fell 20% and Chinese sectors fell sharply: the mainland defense basket lost 47% (in line with the Shanghai market it is measured against), metals 35% and banks 26%. Metals and energy also fell 18-29% in the US and Europe over three months, which fits falling commodity prices and growing worries about Chinese demand. Like other market tops, this date marks a turning point rather than a single announcement.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "shanghai_plunge_2015": {
+    "context": {
+      "text": "On July 27, 2015 the Shanghai Composite fell about 8.5%, its worst day since 2007, despite weeks of government efforts to support prices, including a ban on large shareholders selling and state-backed buying.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The first week stayed mostly local: the US and Europe rose about 1%, while the mainland defense basket fell 20% and Chinese metals 11%. The one-month numbers are much worse everywhere, with the US down 10%, but that window includes the yuan devaluation of August 11 and the global sell-off of August 24. European defense was the exception, beating its market by 9 points over a month, though that basket is only loosely linked to China.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "yuan_devaluation_2015": {
+    "context": {
+      "text": "On August 11, 2015 the People's Bank of China cut the yuan's daily reference rate by nearly 2%, its biggest move in two decades, and said the rate would follow the market more closely. Investors read it as a sign that China's economy was weaker than it looked and feared a currency war.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Chinese tech fell 10.6% in a week, lagging the Hang Seng by 6 points, and European autos fell 8%, lagging their market by 5.5 points. European carmakers sell many cars in China, so a weaker yuan and slowing demand hit them directly, while US automakers rose. Within a month all three markets were down 7-12%, a window that includes the global sell-off of August 24. Chinese autos rose 26% over three months, which more likely reflects China's car purchase tax cut announced in late September.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "black_monday_2015": {
+    "context": {
+      "text": "On August 24, 2015 Chinese stocks fell more than 8% and the sell-off spread worldwide; the Dow dropped about 1,000 points at the open. China's central bank cut interest rates and bank reserve requirements the next day.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Because the base is the previous Friday's close, after a week of heavy losses, the market rebounded and the S&P 500 was flat after a week. Chinese banks fell 6.6% in that week, lagging the Hang Seng by 3 points, even as rates were cut. European autos fell 9.6% in a month, lagging by 6 points, a window that includes the Volkswagen emissions scandal in mid-September. Chinese autos rose 47% over three months, which likely reflects China's car tax cut rather than the sell-off.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "circuit_breaker_2016": {
+    "context": {
+      "text": "On January 7, 2016 Chinese stock trading was halted for the day less than 30 minutes after the open, the second such halt that week under a new circuit-breaker rule. Regulators scrapped the rule that evening. At the same time, oil prices were sliding toward $30 a barrel.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Losses spread beyond China: the S&P 500 fell 3.5% in a week and Europe 4.4%. US metals fell 14.6% in the first week, then rose 40% over three months as commodity prices recovered from February. European banks fell 16% in a month and 22% over three months, lagging the market by 15 points, which matches separate worries about European banks' profits and capital in early 2016. The circuit breaker was the trigger in China, but oil and bank concerns shaped much of what followed.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "wuhan_cluster_2019": {
+    "context": {
+      "text": "On December 31, 2019 health authorities in Wuhan reported a cluster of pneumonia cases of unknown cause, later identified as a new coronavirus. At the time it drew little attention from markets.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The first week and month show almost no reaction: the S&P 500 rose 1.1% in a week and was flat after a month. The three-month numbers capture the COVID crash, with the US down 23% and US energy down 53%, a fall made worse by the oil price war between Saudi Arabia and Russia in March. That three-month window is dominated by later events, so the early report itself does not explain these moves.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "wuhan_lockdown_2020": {
+    "context": {
+      "text": "On January 23, 2020 China locked down Wuhan, a city of 11 million, and soon extended restrictions to the surrounding province. It was the first sign of how seriously Beijing viewed the outbreak, coming on the eve of the Lunar New Year holiday.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "China reacted first: the Hang Seng fell 7% in the first week, with Chinese energy, metals and auto stocks each down about 12%. The US barely moved, down 1.1%, and US autos even gained. Energy fell in all three markets as investors expected lower fuel demand. The three-month losses of 15-21% reflect the virus's spread to the rest of the world, not the lockdown alone.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "italy_quarantine_2020": {
+    "context": {
+      "text": "On February 21-23, 2020 Italy sealed off towns in Lombardy and Veneto after a sudden rise in cases, the first major outbreak in Europe. It showed the virus was spreading outside Asia.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "This was when Western markets took the virus seriously: Europe fell 12% in a week and the US 7%, and after a month the US was down 27% and Europe 29%. US energy fell 48% in a month, lagging by 22 points, a fall made worse by the oil price war of early March. Defense and aerospace fell 40-44% in the US and Europe as air travel collapsed, while tech and staples held up best. Chinese banks beat the Hang Seng by 10 points in a month, as China seemed past its first wave.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "who_pandemic_2020": {
+    "context": {
+      "text": "On March 11, 2020 the World Health Organization described COVID-19 as a pandemic. That evening the US announced restrictions on travel from Europe, and the next day US stocks had their worst day since 1987.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The first week was a crash: the S&P 500 fell 17%, and the hardest hit were US autos (-37%), defense and aerospace (-33%) and energy (-32%). Consumer staples fell only 8%, beating the market by 9 points, as investors sought firms that sell everyday goods. After three months the US was up 11%, helped by unprecedented Fed and government support. European banks lagged by 17 points over three months, which fits record-low rates and pressure to suspend dividends.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "fed_zero_2020": {
+    "context": {
+      "text": "On Sunday, March 15, 2020 the Federal Reserve cut its key rate to near zero and announced at least $700 billion of bond purchases, its second emergency move in two weeks. Stock futures fell anyway, and US stocks dropped about 12% the next day.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The rate cut did not stop the fall: the S&P 500 lost 16.7% in the following week, with autos, energy and defense down about 25%. Banks were among the weakest over three months, lagging the market by 9 points in the US and 18 points in Europe, as near-zero rates squeeze lending margins. European tech rose 38% over three months, beating the market by 15 points, reflecting the shift to remote work and software. The rebound came after the Fed's further steps a week later.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "fed_unlimited_qe_2020": {
+    "context": {
+      "text": "On March 23, 2020 the Federal Reserve said it would buy as many bonds as needed and launched new programmes to lend to companies. US stocks hit their pandemic low that day, and Congress passed a $2 trillion relief package days later.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The rebound was fast and broad: the S&P 500 rose 14% in a week and 36% over three months. The biggest gains came from beaten-down sectors, with US autos up 74% over three months and US defense and aerospace up 23% in a week. Banks and consumer staples lagged, with European banks trailing their market by 16 points over three months, as low rates and dividend limits weighed on them. Policy support and the end of the panic selling explain most of these moves.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "pfizer_vaccine_2020": {
+    "context": {
+      "text": "On November 9, 2020 Pfizer and BioNTech said their vaccine was more than 90% effective in a large trial, far better than expected. The news came two days after Joe Biden was declared winner of the US election.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The vaccine set off a rotation into sectors that needed the economy to reopen. US energy rose 25% in a week, beating the market by 21 points, European banks rose 20.5% and defense and aerospace rose 14-21% in the US and Europe, all helped by the prospect of travel and growth returning. Tech lagged in all three markets, falling 7% in China, where new antitrust rules for internet platforms were proposed the next day. US autos rose 63% over three months, mostly reflecting Tesla's rally after it was added to the S&P 500.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "cpi_jump_2021": {
+    "context": {
+      "text": "On May 12, 2021 the US reported that consumer prices had risen 4.2% from a year earlier, the fastest pace since 2008. Some of the jump reflected low prices a year before, and the Fed said it expected the rise to be temporary.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The data caused a brief scare but little sector damage: the S&P 500 fell 0.8% in a week and was up 7.5% after three months. Metals weakened, falling 6% in Europe and 9% in China in the first week, a period when Beijing was also warning against commodity speculation. Chinese autos rose 39% in a month on a two-stock basket, which reflects China's electric-car boom rather than US inflation. Overall, markets accepted the Fed's view that inflation would fade.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "powell_transitory_2021": {
+    "context": {
+      "text": "On November 30, 2021 Fed Chair Jerome Powell told Congress it was time to 'retire' the word 'transitory' for inflation and signalled faster tapering of bond purchases. It came days after the Omicron variant was identified.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "In the first week and month sectors barely moved, suggesting markets had already expected a more hawkish Fed. Over three months the split was sharp: tech fell 18% in Europe and China, while US energy rose 32% and metals 32%, beating the market by 37 points. The three-month window ends after Russia invaded Ukraine on February 24, 2022, which explains much of the surge in energy and metals and the 42% gain in European defense.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "fed_first_hike_2022": {
+    "context": {
+      "text": "On March 16, 2022 the Federal Reserve raised rates by a quarter point, its first increase since 2018, to fight inflation running near 8%. The hike came three weeks into Russia's invasion of Ukraine; Beijing also promised support for its markets that day.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The first week brought relief, with the S&P 500 up 4.5% and Hong Kong up 9%. Energy was the strongest sector, beating the market by 26 points in the US over three months, as oil stayed high during the war. European defense gained 14% in a month, beating the market by 12 points, which reflects the war more than the Fed. US tech lagged as higher rates weighed on growth stocks, and the S&P 500 was down 11% after three months.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "fed_75bp_2022": {
+    "context": {
+      "text": "On June 15, 2022 the Federal Reserve raised rates by three-quarters of a point, its largest hike since 1994, days after a report showed inflation at 8.6%. Fears grew that the Fed would push the economy into recession.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Sectors tied to economic growth took the hit: US energy fell 15% in a week, lagging the market by 17 points, and metals fell 8-11% in the US and Europe as commodity prices dropped on recession fears. The market itself rose 1.6% in the first week, so the damage was concentrated in commodities. Consumer staples held up in all three markets. Chinese autos rose 14% in the first week, which reflects local factors in a small basket.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "ecb_first_hike_2022": {
+    "context": {
+      "text": "On July 21, 2022 the ECB raised rates by half a point, more than it had signalled, ending eight years of negative interest rates. Italian Prime Minister Mario Draghi resigned the same day, raising worries about Italian debt.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Most sectors rose with the market in the first weeks, and European banks, which benefit from higher rates, beat their market by 7 points over three months. The rise was gradual rather than an immediate jump, so the hike seems to have been largely expected. US autos rose 20% in a month, a window that includes the US Inflation Reduction Act and its new electric-vehicle tax credits. Chinese autos fell 50% over three months on local factors.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "uk_mini_budget_2022": {
+    "context": {
+      "text": "On September 23, 2022 the UK government announced large unfunded tax cuts. Gilt yields and the pound collapsed, and on September 28 the Bank of England began emergency bond purchases to stop pension funds from being forced to sell.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "European banks, a sector that includes large UK lenders, were hit hardest, falling 9.2% in a week and lagging the European market by 6 points. Other European sectors moved roughly with the market, which fell 2.9%. The damage reversed over three months, with the market up 8.5% after the Bank's intervention and the government's U-turn. US autos fell 29% over three months, mainly reflecting Tesla's decline, which is unrelated to the UK.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "chatgpt_launch_2022": {
+    "context": {
+      "text": "On November 30, 2022 OpenAI released ChatGPT as a free research preview. It gained millions of users within days, but it was a product launch from a private company, not market news.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The launch left no visible mark on sector returns: US tech was flat in the first week, lagging the market by less than a point, and fell 3.6% in a month. Chinese sectors rose strongly, with the Hang Seng up 12% in a month, as China ended its zero-COVID policy, and European banks rose 19% over three months. The AI rally came months later, so this column is useful mainly as a reference point.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "nvidia_guidance_2023": {
+    "context": {
+      "text": "On May 24, 2023 Nvidia forecast quarterly revenue about 50% above analysts' expectations, citing demand for its chips from companies building AI systems. Its shares jumped about 24% the next day.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Technology led: US tech rose 8.2% in a week, beating the market by 4 points, and European tech rose 5.4%, beating its market by 5.8 points, since both sectors include chipmakers and their suppliers. Consumer staples lagged in the US and Europe as investors moved into growth shares. US autos rose 27% in a month, mostly reflecting Tesla rather than Nvidia. The window also includes the US debt-ceiling deal, which helped the broad market.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "chip_controls_2023": {
+    "context": {
+      "text": "On October 17, 2023 the US Commerce Department tightened rules on exports of advanced AI chips and chipmaking tools to China, closing gaps in its 2022 controls. US bond yields were near 5% at the time.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "At sector level the controls had little visible effect: US tech fell 2.9% in the first week, in line with the market, which was hit by rising bond yields. Chinese tech fell only 0.6%, beating the Hang Seng by 3.5 points. A month later US and European tech were up 7-10%, beating their markets. Individual chip stocks may have reacted more, but these sector baskets do not show it.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "nvidia_most_valuable_2024": {
+    "context": {
+      "text": "On June 18, 2024 Nvidia briefly overtook Microsoft to become the world's most valuable listed company, after its shares had risen about ninefold since late 2022.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The milestone came close to a short-term peak for tech: US tech fell 1.9% in a week and lagged the market by 9 points over three months, and European tech lagged by 12 points. In July and August investors moved money from the biggest tech stocks into smaller companies and other sectors, and a sell-off in early August added to the pressure. Banks, industrials and staples beat the market over the period. The move fits a rotation rather than a reaction to the milestone.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "deepseek_2025": {
+    "context": {
+      "text": "In late January 2025 investors focused on DeepSeek, a Chinese start-up whose AI model appeared to match leading US systems at a fraction of the training cost. On January 27 the news set off a sell-off in AI-related stocks, and Nvidia lost about 17% in a single day.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "US tech fell 4.8% in a week, lagging the market by 3 points, while Chinese tech went the other way, rising 11% in a week and 29% in a month and beating the Hang Seng by 14.5 points, as investors reassessed Chinese AI. Chinese autos also rallied, by 32.5% in a month. European defense rose 18.5% in a month and 42% over three months, which reflects Europe's plans to raise military spending in February and March, not DeepSeek. US consumer staples beat the market by 7.5 points in a month, a defensive shift.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "nvidia_5t_2025": {
+    "context": {
+      "text": "On October 29, 2025 Nvidia became the first listed company to be worth $5 trillion, after a rally driven by spending on AI data centres. The Federal Reserve cut interest rates the same day.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "As with Nvidia's earlier milestone, the record came close to a short-term top for tech: US tech fell 5.2% in a month, lagging the market by 4.7 points, and Chinese tech lagged by 15 points over three months amid worries about AI valuations. Metals rose sharply over three months, by 21% in the US, 28% in Europe and 33% in China, and energy also gained strongly. These moves fit a rotation away from AI leaders toward other sectors, though the reasons for the commodity rally lie outside this event.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "us_election_2000": {
+    "context": {
+      "text": "The US presidential election of November 7, 2000 between George W. Bush and Al Gore ended without a clear winner, and a recount dispute in Florida lasted five weeks until the Supreme Court's ruling in Bush v. Gore. It came during the bursting of the dot-com bubble.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The uncertainty coincided with continued losses in tech: US tech fell 6.7% in a week and 26% over three months, lagging the market by 18 points. Consumer staples (+9.4 points vs. the market in a month) and energy (+14 points over three months) did best. Since the tech slump had begun months before, these moves fit the ongoing bust more than the disputed election, which mainly added uncertainty.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "sept_11_2001": {
+    "context": {
+      "text": "On September 11, 2001 terrorists hijacked four planes and attacked the World Trade Center and the Pentagon. US stock markets stayed closed until September 17, the longest closure since the 1930s.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "When US markets reopened, the S&P 500 fell 8.2% in a week. Energy (-14.9%) and industrials (-12.2%), which include airlines and aircraft makers, were hit hardest as investors expected less travel and slower growth. The market recovered its losses within a month, and US tech rose 14% over three months. European defense rose 20% over three months, as governments prepared for war in Afghanistan; there is no US defense series for this period.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "china_wto_2001": {
+    "context": {
+      "text": "China formally became a member of the World Trade Organization on December 11, 2001, after 15 years of negotiations. Its entry had been approved a month earlier, so the date itself held little surprise.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Markets barely reacted: the S&P 500 rose 0.5% in a week and US sectors stayed within a couple of points of each other. In Hong Kong the market fell 4.9% in a month. Chinese energy companies beat the Hang Seng by 22 points over three months, but on a two-stock basket. The long-run effect of China's entry on world trade was large, but it does not show up in these short windows.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "iraq_invasion_2003": {
+    "context": {
+      "text": "US-led forces began military operations against Iraq on March 20, 2003. In the days before, stocks had rallied strongly as the war became certain, and the end of uncertainty was already partly priced in.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Measured from the close before the invasion, the first week was flat, with the S&P 500 down 0.5%, and US energy barely moved as oil prices fell once fighting began. Over three months the S&P 500 rose 14% as a new bull market began, and most US sectors rose with it. European defense gained 27% over three months. Hong Kong was also dealing with the SARS outbreak in these months, which may explain the weakness of Chinese consumer staples.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "us_election_2008": {
+    "context": {
+      "text": "Barack Obama won the US presidential election on November 4, 2008, in the middle of the financial crisis. His victory was widely expected, and attention quickly turned to the economy and the bank rescue.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The week after the election was one of the worst of the crisis, with the S&P 500 down 14.5%, US banks down 24% and US metals down 30%. Consumer staples beat the market by about 8 points in the US. Chinese industrials, autos and metals jumped, but that window includes China's 4-trillion-yuan stimulus announced on November 9. The moves reflect the crisis and China's response, not the election result itself.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "taper_tantrum_2013": {
+    "context": {
+      "text": "On May 22, 2013 Fed Chair Ben Bernanke told Congress that the central bank could slow its bond purchases 'in the next few meetings' if the economy kept improving. Bond yields rose sharply in the following weeks, in what became known as the 'taper tantrum'.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Stocks took the news calmly in the first week, but within a month the S&P 500 was down 4.3%, Europe 8.1% and Hong Kong 14.8%. Metals fell most, by 12-20% in a month across all three markets, along with Chinese banks (-16%), a window that also includes a cash squeeze in China's banking system in June. Emerging and commodity-linked markets suffered more than the US, consistent with money flowing back to dollar assets as yields rose. US autos jumped 10% in the first week, which reflects Tesla's own rally at the time.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "crimea_2014": {
+    "context": {
+      "text": "On March 1, 2014 Russia's upper house of parliament authorised President Putin to use military force in Ukraine, as Russian troops took control of Crimea. Russia annexed the peninsula later that month.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Markets shrugged it off quickly: the US rose 1% in the first week and Europe fell 1.9%, and sector moves stayed small. European defense fell 2.7% in the first week and lagged the market over three months, in contrast to the surge in 2022. European metals fell 5.6% in the first week, which may reflect worries about China in the same period more than Russia. Russian stocks themselves are not covered here.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "ecb_negative_2014": {
+    "context": {
+      "text": "On June 5, 2014 the ECB cut its deposit rate to -0.1%, becoming the first major central bank to charge banks for holding reserves. It also announced cheap long-term loans for banks to encourage lending.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The reaction was mild: the European market rose 1.2% in a week and was flat after three months. European banks lagged by 4 points in the first month, consistent with negative rates squeezing their margins, though the gap was small. Chinese tech, industrials and autos rose 10-15% in a month for reasons unrelated to the ECB.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "snb_franc_2015": {
+    "context": {
+      "text": "On January 15, 2015 the Swiss National Bank unexpectedly abandoned the minimum exchange rate of 1.20 francs per euro that it had defended since 2011. The franc surged, Swiss stocks fell sharply, and some currency brokers suffered heavy losses.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The European numbers are dominated by another event: on January 22, within the first week, the ECB announced large-scale bond buying. The European market rose 6.7% in a week and 21.5% over three months, and most sectors rose with it. European consumer staples, which include Swiss food and drink companies, moved in line with the market. The franc shock hurt Swiss companies, but at the scale of these European sectors it is hard to see.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "greek_referendum_2015": {
+    "context": {
+      "text": "On July 5, 2015 Greek voters rejected the creditors' bailout terms by about 61% to 39%. A week later Prime Minister Alexis Tsipras agreed to a new bailout with even stricter conditions.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Markets reacted with relief rather than fear: the European market rose 3.3% in a week, as a deal looked likely. European banks rose 2.8%, roughly in line with the market. The bigger moves in this window came from the Chinese stock crash, with Chinese banks down 13% in a month, and from falling commodity prices, with US metals down 17% in a month and 27% over three months.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "fed_liftoff_2015": {
+    "context": {
+      "text": "On December 16, 2015 the Federal Reserve raised interest rates for the first time since 2006, by a quarter point. The move had been well telegraphed, and the Fed said further increases would be gradual.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The first week was positive, with the S&P 500 up 1.1%, consistent with an expected move. The one-month figures are much weaker, with the US down 7.7% and Europe 8.8%, a period that includes China's market turmoil and oil falling below $30 in January 2016. US metals fell 18% in a month, then rose 44% over three months as commodities rebounded. European banks lagged by 9 points over three months, partly because of separate worries about their profits.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "brexit_2016": {
+    "context": {
+      "text": "In the referendum of June 23, 2016 the UK voted by 52% to 48% to leave the European Union, against the expectations of most polls and betting markets. The pound fell to its lowest level since 1985 as results came in.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "European banks were hit hardest, falling 16.5% in a week and lagging the market by 12.5 points, as investors worried about UK lenders and lower interest rates for longer. European autos fell 9.3%, lagging by 5 points, given the UK's importance as an export market for European carmakers. Consumer staples and energy beat the European market by 5-6 points, since many of these companies earn in dollars and benefit from a weaker pound. The US barely moved, down 0.4% in a week.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "us_election_2016": {
+    "context": {
+      "text": "Donald Trump won the US presidential election on November 8, 2016, against the expectations of most polls. He had campaigned on tax cuts, infrastructure spending and lighter regulation.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The result set off a 'reflation trade': US banks rose 9.4% in a week and 18.8% in a month, beating the market by 13 points, on hopes of higher interest rates and deregulation. US metals rose 23% in a month and industrials 10%, consistent with expected infrastructure spending, and defense gained in both the US and Europe. Consumer staples and tech lagged, as investors moved out of defensive and bond-like shares. The pattern is one of the clearest sector rotations in the dashboard.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "french_election_2017": {
+    "context": {
+      "text": "On May 7, 2017 Emmanuel Macron defeated Marine Le Pen in the French presidential runoff, with about two-thirds of the vote. Polls had shown him well ahead after the first round two weeks earlier.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Because the result was expected, European markets barely moved: the market rose 0.7% in a week and European banks were flat. Much of the relief had come after the first round, when French and European banks rallied. The larger moves in this window are in Chinese baskets, such as autos up 21% in a month and the A-share defense basket down 11% in a week, which reflect local factors.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "steel_tariffs_2018": {
+    "context": {
+      "text": "On March 1, 2018 President Trump announced tariffs of 25% on imported steel and 10% on aluminum, citing national security. Allies including the EU and Canada said they would respond.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "US metals rose 2.4% in the first week, beating the market by 1.5 points, as domestic producers stood to benefit. The gain did not last, and metals fell 6.6% in a month as fears of a wider trade war grew. US carmakers, which buy large amounts of steel, fell 11% in a month, lagging the market by 6.5 points, although Tesla's own difficulties at the time also weighed on that small basket. The S&P 500 fell 4.8% in a month, a window that includes the announcement of tariffs on Chinese goods.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "china_tariffs_2018": {
+    "context": {
+      "text": "On July 6, 2018 US tariffs of 25% on $34 billion of Chinese imports took effect, and China immediately imposed matching tariffs on US goods. The measures had been announced weeks earlier.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Markets had already priced in the tariffs: the S&P 500 rose 2.4% in the first week. Chinese tech rose 10% in a week, beating the Hang Seng by 9 points, a window in which Xiaomi listed in Hong Kong and joined the basket. Chinese industrials rose 22% over three months, beating the market by 27.5 points, as Beijing promised more infrastructure spending to support growth. US autos lagged by 17.5 points over three months on a small, Tesla-heavy basket.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "us_midterms_2018": {
+    "context": {
+      "text": "In the US midterm elections of November 6, 2018 Democrats won control of the House of Representatives while Republicans kept the Senate. The result was close to what polls had predicted.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The election left little trace: in the first week sectors moved within a few points of the market. The following month was weak, with the S&P 500 down 4% and energy down 8.6% as oil prices slumped, in the run-up to a sharp sell-off in December. Those losses fit worries about global growth, trade and the Fed rather than the election result.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "tariff_escalation_2019": {
+    "context": {
+      "text": "On May 5, 2019 President Trump said on Twitter that tariffs on $200 billion of Chinese goods would rise from 10% to 25% within days, upending expectations of a trade deal. China retaliated the following week.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Sectors exposed to trade and the economic cycle fell most: autos dropped 9.3% in Europe and 11.4% in China in a week, and US metals and tech fell about 7%. Consumer staples beat the market by about 3 points in the US and Europe, as investors sought firms less tied to global supply chains. The one-month window also includes the US ban on Huawei and the threat of tariffs on Mexico, which kept pressure on autos.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "abqaiq_2019": {
+    "context": {
+      "text": "On September 14, 2019 drones and missiles struck Saudi Arabia's Abqaiq processing plant and the Khurais oil field, briefly knocking out about half of the kingdom's oil output. Oil prices jumped by the most on record in a single day when markets opened.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Energy stocks rose in the first week, by 1.3% in the US and 3.3% in Europe, beating their markets by 2-4 points. The gain faded within a month, with US energy down 4% as Saudi Arabia restored output faster than expected. Defense stocks did not benefit; the European defense basket lagged the market by 8 points in a month. Overall the shock was absorbed quickly.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "soleimani_2020": {
+    "context": {
+      "text": "On January 3, 2020 a US drone strike in Baghdad killed Qassem Soleimani, commander of Iran's Quds Force. Iran fired missiles at bases housing US troops in Iraq on January 8, after which both sides stepped back.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "After a brief rise in oil prices, markets moved on: the S&P 500 was up 0.3% after a week and US energy was down 1.3%. European defense rose 3% in a week and beat the market by 7 points in a month. The three-month numbers are dominated by the COVID-19 crash, so they say nothing about this event.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "phase_one_2020": {
+    "context": {
+      "text": "On January 15, 2020 the US and China signed the 'Phase One' trade agreement, under which China pledged to buy an extra $200 billion of US goods over two years and the US halved some tariffs. The deal paused a trade war that had lasted almost two years.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The signing had been expected for weeks and caused little movement: the S&P 500 rose 1.3% in a week and US tech 3%, beating the market by 1.7 points. Energy and metals weakened in the first week, by 4% and 6% in the US, as oil prices fell and news of the coronavirus in China began to spread. The three-month figures are dominated by the COVID-19 crash and say nothing about the deal.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "us_election_2020": {
+    "context": {
+      "text": "The US presidential election was held on November 3, 2020, and counting in key states took several days before Joe Biden was projected the winner on November 7. Republicans were expected to keep the Senate, which would limit large tax rises.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Stocks rallied: the S&P 500 rose 6.1% in a week and Europe 9.2%, as the end of uncertainty and the prospect of a divided Congress reassured investors. The first-week window also includes Pfizer's vaccine news of November 9, which explains much of the jump in energy (+14% in the US and Europe), European banks (+15.5%) and European defense and aerospace (+18%). Chinese tech fell 5.5% in a week, lagging the Hang Seng by 10.6 points, amid the suspension of Ant Group's listing and new antitrust rules in China.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "ukraine_invasion_2022": {
+    "context": {
+      "text": "In the early hours of February 24, 2022 Russia launched a full-scale invasion of Ukraine. Western governments responded with sweeping sanctions, and within days Germany announced a €100 billion fund to rebuild its armed forces.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "European defense had the biggest reaction in the dashboard: the basket rose 21.9% in a week and 41% in a month, beating the European market by about 40 points, as governments pledged higher military spending. Energy and metals rose on fears for Russian supplies, with US metals up 16.5% in a week. European banks (-13.9%) and autos (-15.9%) fell hardest, reflecting banks' exposure to Russia and carmakers' dependence on parts and energy from the region. The US market rose 3.3% in the first week, measured from the close before the invasion.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "chip_controls_2022": {
+    "context": {
+      "text": "On October 7, 2022 the US Commerce Department announced broad restrictions on exports of advanced chips, chipmaking equipment and related know-how to China. It was the most far-reaching step yet to limit China's access to advanced semiconductors.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "US tech fell 7.3% in the first week, lagging the market by 3 points, and European tech, which includes chip-equipment makers, lagged its market by 5 points. Chinese tech fell 6.9% in that week, a window that also includes China's Communist Party congress, after which Hong Kong stocks fell sharply. Over three months Chinese tech rose 27% as China moved to end its zero-COVID policy, so the longer horizons reflect reopening rather than the export controls.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "us_midterms_2022": {
+    "context": {
+      "text": "In the US midterm elections of November 8, 2022 Republicans narrowly won the House while Democrats kept the Senate. The 'red wave' many had predicted did not happen, and counting in some races took days.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Markets rose after the election, but the main driver came two days later: a cooler-than-expected inflation report on November 10 sent the S&P 500 up sharply, and tech gained 6% in the US and 9% in Europe in the first week. Hong Kong rose 10% in a week and 17.5% in a month as China eased COVID rules and supported its property sector. US energy fell 11% in a month as oil prices dropped. None of these moves point to the election result itself.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "svb_2023": {
+    "context": {
+      "text": "On March 10, 2023 US regulators closed Silicon Valley Bank after customers tried to withdraw $42 billion in a day, the largest US bank failure since 2008. Two days later the government guaranteed all of its deposits, and Signature Bank was also closed.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Banks were hit hardest: US banks fell 7.6% in a week while the S&P 500 was flat, and European banks fell 14.7%, a window that also includes the crisis at Credit Suisse. Energy and metals fell 8-11% as investors worried about a recession. Tech went the other way, with US tech up 3.8% in a week, as falling bond yields helped growth stocks. US banks still lagged the market by 11 points after three months.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "ubs_credit_suisse_2023": {
+    "context": {
+      "text": "On March 19, 2023 UBS agreed to take over Credit Suisse for about 3 billion Swiss francs in a deal arranged by the Swiss government. About 16 billion francs of the bank's AT1 bonds were written off, which unsettled bond investors.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The rescue calmed markets: European banks were flat in the first week and rose 10% in a month, beating the European market by 2.7 points, after other European regulators said shareholders would take losses before bondholders in their own banks. The European market rose 7.5% in a month and the US 6.2%. Over three months European banks beat the market by 5.6 points, suggesting the crisis was seen as contained.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "gallium_germanium_2023": {
+    "context": {
+      "text": "On July 3, 2023 China announced that exports of gallium and germanium, two metals used in chips and solar panels, would need licences from August 1. China produces most of the world's supply of both.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The controls left little mark on sector returns. Tech moved roughly with the market in the US and Europe, and Chinese metals beat the Hang Seng by 3 points in the first week. The markets for these metals are small and the miners in our baskets do not depend on them, so a reaction at this level was not expected. The larger moves in this window, such as Chinese staples falling 17% over three months, reflect other factors.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "hamas_attack_2023": {
+    "context": {
+      "text": "On October 7, 2023 Hamas launched a large-scale attack on southern Israel, killing about 1,200 people and taking more than 200 hostages. Israel declared war and began a military campaign in Gaza.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Defense stocks were the clearest movers: the European basket rose 10.2% in a week, beating the market by 9 points, and the US sector rose 5%, with gains that held over three months. Energy rose 5-6.5% in the first week on fears the conflict could disrupt oil supplies, but the gain reversed and US energy lagged the market by 14 points over three months as supplies were unaffected. The broad markets rose slightly, so the shock stayed contained to these sectors.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "eu_elections_2024": {
+    "context": {
+      "text": "In the European Parliament elections of June 6-9, 2024 far-right parties made gains, and in France the National Rally won about twice the vote of President Macron's list. On the evening of June 9 Macron dissolved the National Assembly and called a snap election.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The surprise hit French assets: the European market fell 2.4% in a week and European banks 4.5%, a sector with large French lenders. The European defense basket fell 7.8%, lagging the market by 5 points, and two of its five companies, Thales and Safran, are French. US tech rose 7% in the same week on its own news, so the reaction was concentrated in Europe.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "yen_carry_2024": {
+    "context": {
+      "text": "On August 5, 2024 Japan's Nikkei fell more than 12%, its worst day since 1987, after a Bank of Japan rate rise and weak US jobs data pushed the yen higher and forced investors to unwind trades funded in yen. Volatility spiked worldwide.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Measured from the previous Friday's close, after losses had already begun, the shock was short-lived: the S&P 500 was flat after a week and up 3.4% after a month. Sector moves were small in the first week, all within about 3 points of their markets. Chinese sectors rose strongly over three months, but that reflects Beijing's stimulus in late September. Japanese stocks, which took the biggest hit, are not covered here.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "fed_first_cut_2024": {
+    "context": {
+      "text": "On September 18, 2024 the Federal Reserve cut its key rate by half a point, its first cut since 2020, as inflation eased and the job market cooled. Six days later China's central bank announced a broad stimulus package.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "In the US the reaction was moderate, with the S&P 500 up 1.5% in a week. The big moves were in China, where the first week includes Beijing's stimulus of September 24: the Hang Seng rose 12.8%, and industrials, autos, staples and metals rose 17-21%. Metals also jumped in Europe (+10.5%) and the US (+7.3%), helped by hopes for Chinese demand. US autos rose 31% over three months, mostly reflecting Tesla's rally after the US election.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "us_election_2024": {
+    "context": {
+      "text": "Donald Trump won the US presidential election of November 5, 2024, and Republicans also took control of the Senate and the House. He had campaigned on tariffs, tax cuts and deregulation.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "US autos jumped 14.7% in a week, beating the market by 11 points, mostly through Tesla, whose chief executive Elon Musk had backed Trump. US banks rose 6.6% on hopes of lighter regulation. European defense rose 8.2% while its market fell, as investors expected Europe to spend more on its own security. Hong Kong fell 5.6% in a week and Chinese consumer staples 13.6% in a month, consistent with fears of new US tariffs on China.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "german_election_2025": {
+    "context": {
+      "text": "In Germany's federal election of February 23, 2025 the CDU/CSU led by Friedrich Merz came first and the far-right AfD second. In early March Merz agreed with the outgoing coalition to loosen Germany's borrowing rules for defense and create a large infrastructure fund.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "European defense was the standout: the basket rose 22% in a week and 52% over three months, beating the European market by about 50 points. The first week also includes the clash between Presidents Trump and Zelensky at the White House on February 28, which raised doubts about US support for Ukraine, so the gain reflects both German and wider European plans to rearm. European banks rose 13.6% over three months as bond yields rose. Tech fell in all three markets, by 6.9% in the US in a week, amid tariff worries.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "liberation_day_2025": {
+    "context": {
+      "text": "On April 2, 2025, after US markets closed, President Trump announced 'reciprocal' tariffs on most US trading partners, with a 10% minimum and much higher rates for many countries. The scale surprised investors, and global stocks fell sharply in the following days.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Even including the rebound of April 9, the S&P 500 was down 7.1% after a week, Europe 9.1% and Hong Kong 9.9%. Energy fell most, by 18% in the US and 17% in Europe, as oil prices dropped on fears of a global slowdown. European banks fell 12.8%. Consumer staples beat their markets by 4-9 points, as investors sought businesses less exposed to trade. After three months most losses had been recovered, with the S&P 500 up 10%.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "tariff_pause_2025": {
+    "context": {
+      "text": "On April 9, 2025, a week after 'Liberation Day', President Trump paused most of the new tariffs for 90 days while raising tariffs on China further. US stocks had one of their biggest one-day gains on record.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The pause set off a strong rebound in cyclical sectors: over three months US tech rose 43% and US metals 50%, beating the market by 17 and 24 points. European banks rose 28% in a month. Consumer staples lagged by 16-25 points over three months in all three markets, as investors moved back from defensive shares. The longer windows also include the US-China truce of May, so the gains are not due to the pause alone.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "israel_iran_2025": {
+    "context": {
+      "text": "On June 13, 2025 Israel launched air strikes on Iranian nuclear and military sites, and Iran responded with missile attacks. The US struck Iranian nuclear facilities on June 22, and a ceasefire was announced two days later.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Markets took the conflict calmly: the S&P 500 was flat after a week and Europe fell 2.4%. European energy beat its market by 4 points in the first week, but oil prices fell back after the ceasefire. US defense rose 8.4% in a month. US metals rose 37.5% and Chinese metals 71.5% over three months, which reflects a separate rally in metals and rare earths, not the conflict.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "rare_earths_2025": {
+    "context": {
+      "text": "On October 9, 2025 China expanded its export controls on rare earths and related technologies, including some products made abroad with Chinese materials. The next day President Trump threatened 100% tariffs on Chinese goods; at the end of the month the two sides agreed a truce.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "Sectors that depend on rare-earth magnets were hit: European autos fell 7.6% in a week, lagging the market by 7.4 points, in a period that also included a dispute over the chip supplier Nexperia that worried carmakers. US metals rose 4.2% in the first week, beating the market by 6 points, as investors bought US producers that could gain from Chinese restrictions. Chinese tech fell 7% in a week and lagged by 13 points over three months. Metals rose 25-30% over three months in Europe and China, part of a wider rally in the sector.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    }
+  },
+  "us_midterms_2026": {
+    "context": {
+      "text": "Americans voted on November 3, 2026 in midterm elections for all 435 seats in the House of Representatives and about a third of the Senate, midway through President Trump's second term.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true
+    },
+    "analysis": {
+      "text": "The first week after the vote was calm, with the S&P 500 up 0.7%, and European banks rose 8.2%, beating their market by 5 points. Since then technology has fallen about 12% in all three markets and metals 12-16%, while consumer staples rose, a shift toward defensive sectors. The one-month and three-month horizons have not finished yet, and this dashboard has no information linking these later moves to the election result, so the figures should be read as provisional.",
+      "written_at": "2026-11-26",
+      "author": "claude-opus-5-5 (Claude Code)",
+      "reviewed": true,
+      "as_of": "2026-11-26"
+    }
+  }
+}

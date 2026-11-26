@@ -32,7 +32,7 @@ def iso(v) -> str | None:
 
 
 def export_texts() -> dict:
-    """Publish only reviewed texts (spec §8.2); headlines are links and always published."""
+    """Publish texts with `reviewed: true` (the publish switch, spec §8.2); headlines are links and always published."""
     texts = read_json(DATA / "texts.json", {})
     public = {}
     for eid, t in texts.items():
@@ -40,7 +40,7 @@ def export_texts() -> dict:
         for kind in ("context", "analysis"):
             item = t.get(kind)
             if item and item.get("reviewed"):
-                out[kind] = {k: item[k] for k in ("text", "generated_at", "model", "as_of") if k in item}
+                out[kind] = {k: item[k] for k in ("text", "written_at", "author", "as_of") if k in item}
         public[eid] = out
     write_json(OUT / "texts.json", public)
     return public

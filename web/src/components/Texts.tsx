@@ -11,7 +11,7 @@ export function ContextBlock({ t }: { t: EventTexts | undefined }) {
           {t.headlines.map((h) => (
             <li key={h.url}>
               <a href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>
-              <span className="muted"> · {h.source === "NYT" ? "The New York Times" : "The Guardian"}, {fmtDate(h.date)}</span>
+              <span className="muted"> · {h.source}, {fmtDate(h.date)}</span>
             </li>
           ))}
         </ul>

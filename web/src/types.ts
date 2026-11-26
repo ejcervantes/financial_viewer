@@ -80,12 +80,12 @@ export type Indicators = Partial<Record<IndicatorKey, Indicator>>;
 
 export interface AIText {
   text: string;
-  generated_at: string;
-  model: string;
+  written_at: string;
+  author: string;
   as_of?: string;
 }
 export interface EventTexts {
-  headlines: { title: string; source: string; date: string; url: string }[];
+  headlines?: { title: string; source: string; date: string; url: string }[];
   context?: AIText;
   analysis?: AIText;
 }
