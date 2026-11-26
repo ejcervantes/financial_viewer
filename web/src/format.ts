@@ -31,15 +31,28 @@ export function cellValue(r: Reaction | undefined, mode: Mode, h: Horizon): { va
   return { value: r[mode][h], status };
 }
 
-// Diverging scale: red (negative) → warm neutral → green (positive), saturating at ±scale.
-const NEG = [179, 38, 30];
-const MID = [244, 243, 239];
-const POS = [31, 111, 63];
-const lerp = (a: number[], b: number[], t: number) => a.map((v, i) => Math.round(v + (b[i] - v) * t));
+// Diverging scale red → yellow → green (based on ColorBrewer RdYlGn), saturating at ±scale.
+// The midpoint is a clear pale yellow so "about zero" never reads as the grey of missing data.
+const STOPS: [number, number[]][] = [
+  [-1, [165, 0, 38]],
+  [-0.66, [215, 48, 39]],
+  [-0.33, [244, 128, 72]],
+  [-0.12, [252, 200, 110]],
+  [0, [250, 232, 140]],
+  [0.12, [214, 234, 130]],
+  [0.33, [145, 207, 96]],
+  [0.66, [61, 160, 80]],
+  [1, [0, 104, 55]],
+];
 
 export function colorFor(value: number, scale: number): string {
   const t = Math.max(-1, Math.min(1, value / scale));
-  const c = t < 0 ? lerp(MID, NEG, -t) : lerp(MID, POS, t);
+  let i = 0;
+  while (i < STOPS.length - 2 && t > STOPS[i + 1][0]) i++;
+  const [t0, c0] = STOPS[i];
+  const [t1, c1] = STOPS[i + 1];
+  const f = (t - t0) / (t1 - t0);
+  const c = c0.map((v, k) => Math.round(v + (c1[k] - v) * f));
   return `rgb(${c[0]},${c[1]},${c[2]})`;
 }
 

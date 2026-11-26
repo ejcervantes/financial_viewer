@@ -76,15 +76,20 @@ export default function Heatmap(p: Props) {
     const el = scroller.current;
     if (el && !scrolled.current && N > 0) { el.scrollLeft = el.scrollWidth; scrolled.current = true; }
   }, [N]);
+  // The column comes from the pointer's x position, so the highlight stays on while the
+  // pointer crosses the gaps between sector groups; sector/market come from the cell, if any.
   const onMove = useCallback((ev: React.MouseEvent) => {
-    const t = (ev.target as HTMLElement).closest<HTMLElement>("[data-e]");
-    if (!t) { setHover(null); return; }
-    setHover({ x: ev.clientX, y: ev.clientY, e: Number(t.dataset.e), s: t.dataset.s, m: t.dataset.m as Market | undefined });
-  }, []);
-  const onClick = useCallback((ev: React.MouseEvent) => {
-    const t = (ev.target as HTMLElement).closest<HTMLElement>("[data-e]");
-    if (t) p.onEvent(p.events[Number(t.dataset.e)].id, t.dataset.m as Market | undefined);
-  }, [p.onEvent, p.events]);
+    const el = scroller.current;
+    if (!el) return;
+    const x = ev.clientX - el.getBoundingClientRect().left + el.scrollLeft - LABEL_W;
+    const col = Math.floor(x / COL_W);
+    if (x < 0 || col >= N || (ev.target as HTMLElement).closest(".hm-label")) { setHover(null); return; }
+    const t = (ev.target as HTMLElement).closest<HTMLElement>("[data-s]");
+    setHover({ x: ev.clientX, y: ev.clientY, e: col, s: t?.dataset.s, m: t?.dataset.m as Market | undefined });
+  }, [LABEL_W, COL_W, N]);
+  const onClick = useCallback(() => {
+    if (hover) p.onEvent(p.events[hover.e].id, hover.m);
+  }, [p.onEvent, p.events, hover]);
 
   const ind: Indicator | undefined = p.indicators[p.indicator];
 
