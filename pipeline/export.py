@@ -39,7 +39,8 @@ def export_texts() -> dict:
     for eid in sorted(set(texts) | news_ids):
         t = texts.get(eid, {})
         news = read_json(DATA / "news" / f"{eid}.json", {})
-        out = {"headlines": [{k: h[k] for k in ("title", "source", "date", "url")} for h in news.get("headlines", [])]}
+        out = {"headlines": [{k: h[k] for k in ("title", "source", "date", "url", "abstract", "id") if h.get(k)}
+                             for h in news.get("headlines", [])]}
         for kind in ("context", "analysis"):
             item = t.get(kind)
             if item and item.get("reviewed"):

@@ -1,7 +1,10 @@
-import type { EventTexts } from "../types";
+import { useState } from "react";
+import type { EventTexts, Headline } from "../types";
 import { fmtDate } from "../format";
+import ArticleModal from "./ArticleModal";
 
 export function ContextBlock({ t }: { t: EventTexts | undefined }) {
+  const [open, setOpen] = useState<Headline | null>(null);
   return (
     <section className="panel-section">
       <h3>Context</h3>
@@ -10,12 +13,15 @@ export function ContextBlock({ t }: { t: EventTexts | undefined }) {
         <ul className="headlines">
           {t.headlines.map((h) => (
             <li key={h.url}>
-              <a href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>
+              {/* Plain click opens the reader window; cmd/ctrl-click still opens the original. */}
+              <a href={h.url} target="_blank" rel="noopener noreferrer"
+                 onClick={(e) => { if (e.metaKey || e.ctrlKey || e.shiftKey) return; e.preventDefault(); setOpen(h); }}>{h.title}</a>
               <span className="muted"> · {h.source}, {fmtDate(h.date)}</span>
             </li>
           ))}
         </ul>
       ) : null}
+      {open && <ArticleModal h={open} onClose={() => setOpen(null)} />}
     </section>
   );
 }

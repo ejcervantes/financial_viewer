@@ -55,3 +55,4 @@ jobs:
   deploy:
     needs: update
     uses: ./.github/workflows/deploy.yml
+    secrets: inherit

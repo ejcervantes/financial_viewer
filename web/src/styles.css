@@ -149,6 +149,25 @@ h1, h2, h3 { font-weight: 600; margin: 0; letter-spacing: -0.01em; }
 .panel-section h3, .episode h3 { font-size: 14px; margin-bottom: 6px; }
 .panel-section p { margin: 0 0 8px; color: var(--ink-2); }
 .headlines { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
+.modal-backdrop { position: fixed; inset: 0; z-index: 100; background: rgba(28,31,36,0.45); display: flex; align-items: flex-start; justify-content: center; padding: 6vh 16px; overflow-y: auto; }
+.modal { position: relative; width: min(680px, 100%); background: var(--surface); border-radius: 8px; padding: 28px 32px 24px; box-shadow: 0 12px 48px rgba(28,31,36,0.25); }
+.modal-close { position: absolute; top: 10px; right: 12px; border: 0; background: none; font-size: 24px; line-height: 1; cursor: pointer; color: var(--muted); padding: 4px 8px; }
+.modal-close:hover { color: var(--ink); }
+.modal-source { margin: 0; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.modal-title { font-size: 22px; line-height: 1.25; margin: 6px 0 10px; }
+.modal-byline { margin: 0 0 14px; color: var(--muted); font-size: 13px; }
+.modal-abstract { font-size: 16px; line-height: 1.55; color: var(--ink-2); margin: 8px 0 0; }
+.modal-body { font-size: 15.5px; line-height: 1.6; color: var(--ink-2); }
+.modal-body p { margin: 0 0 12px; }
+.modal-body img { max-width: 100%; height: auto; }
+.modal-body figure { margin: 14px 0; }
+.modal-body figcaption { font-size: 12px; color: var(--muted); }
+.modal-body iframe { max-width: 100%; }
+.modal-copy { font-size: 12px; color: var(--muted); margin: 16px 0 0; }
+.modal-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 13px; }
+.modal-link.button { background: var(--ink); color: #fff; text-decoration: none; padding: 8px 14px; border-radius: 6px; }
+.modal-logo { height: 22px; display: block; }
+@media (max-width: 640px) { .modal { padding: 22px 18px 18px; } .modal-title { font-size: 19px; } }
 .disclaimer { font-size: 12px; color: var(--muted) !important; font-style: italic; }
 .episode-grid { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 32px; margin-top: 24px; }
 .milestones { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; font-size: 13px; }

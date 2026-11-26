@@ -1,7 +1,9 @@
 """Headline links per event from The New York Times and The Guardian → data/news/<event_id>.json.
 
-Only title, outlet, date and URL are stored: no article text, no abstracts, and nothing
-is sent to an AI model. The site shows each headline as a link to the original article.
+Stored per headline: title, outlet, date, URL, plus the NYT's own short abstract (shown
+with a link to the article) or the Guardian content id. Guardian article text is never
+stored here: pipeline.fetch_guardian downloads it at deploy time (the Guardian's terms
+allow keeping it for 24 hours at most). Nothing is sent to an AI model.
 
 Window: from 28 days before the announcement to 2 days after, so the coverage of the
 event itself is included.
@@ -60,7 +62,7 @@ def guardian(keywords: list[str], start: dt.date, end: dt.date, key: str) -> lis
     out = []
     for it in r.json()["response"].get("results", []):
         out.append({"title": (it.get("fields") or {}).get("headline") or it["webTitle"],
-                    "source": GUARDIAN, "date": it["webPublicationDate"][:10], "url": it["webUrl"]})
+                    "source": GUARDIAN, "date": it["webPublicationDate"][:10], "url": it["webUrl"], "id": it["id"]})
     return out
 
 
@@ -79,7 +81,8 @@ def nyt(keywords: list[str], start: dt.date, end: dt.date, key: str) -> list[dic
             continue
         title = (d.get("headline") or {}).get("main") or ""
         if d.get("web_url") and title:
-            out.append({"title": title, "source": NYT, "date": (d.get("pub_date") or "")[:10], "url": d["web_url"]})
+            out.append({"title": title, "source": NYT, "date": (d.get("pub_date") or "")[:10], "url": d["web_url"],
+                        "abstract": (d.get("abstract") or d.get("snippet") or "").strip()})
     return out
 
 

@@ -1,11 +1,15 @@
 name: deploy
 
 # Builds the Vite site and publishes it to GitHub Pages.
-# Runs on pushes to main, by hand, and is called by daily.yml after the data refresh
-# (pushes made with GITHUB_TOKEN don't trigger other workflows).
+# Runs on pushes to main, by hand, every day, and is called by daily.yml / news.yml
+# (pushes made with GITHUB_TOKEN don't trigger other workflows; callers pass `secrets: inherit`).
+# The daily run matters: the Guardian's terms allow keeping article text for 24 hours at
+# most, so guardian.json is re-downloaded on every build and never committed.
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "0 5 * * *"   # every day, including weekends
   workflow_dispatch:
   workflow_call:
 
@@ -30,8 +34,12 @@ jobs:
           python-version: "3.12"
       - name: Publish reviewed texts only
         run: |
-          pip install PyYAML==6.0.4
+          pip install PyYAML==6.0.4 requests==2.34.2
           python -m pipeline.export --texts-only
+      - name: Guardian article text (kept < 24 h, never committed)
+        env:
+          GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
+        run: python -m pipeline.fetch_guardian
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -44,6 +52,7 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web/dist
+          retention-days: 1
 
   deploy:
     needs: build

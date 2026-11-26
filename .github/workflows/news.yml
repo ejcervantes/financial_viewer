@@ -62,3 +62,4 @@ jobs:
     needs: news
     if: ${{ !cancelled() }}
     uses: ./.github/workflows/deploy.yml
+    secrets: inherit

@@ -8,3 +8,4 @@ data/raw/
 data/derived/
 .DS_Store
 .env
+web/public/data/guardian.json

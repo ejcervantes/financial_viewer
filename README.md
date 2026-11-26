@@ -47,11 +47,16 @@ That prints, for every event missing a text (or with an "as of" analysis whose h
 
 Rules for the texts (spec §8): explain only plausible mechanisms, cite the real numbers, flag other news in the same window and small baskets, no invented facts, no advice or predictions.
 
-## Headlines
+## Headlines and the article window
 
-Each event lists up to 5 headlines (at most 3 per outlet) from The New York Times (Article Search API) and The Guardian (Content API), published between 28 days before and 2 days after the announcement. Only title, outlet, date and link are stored and shown; readers go to the original article. Nothing from the articles is passed to an AI model.
+Each event lists up to 5 headlines (at most 3 per outlet) from The New York Times (Article Search API) and The Guardian (Content API), published between 28 days before and 2 days after the announcement. Clicking one opens a reader window:
 
-In GitHub: **Actions → news → Run workflow** (empty `only` = every event without headlines). It commits `data/news/` and redeploys. A full run takes about 20 minutes because of the NYT rate limit (~5 requests/minute, 500/day). Locally:
+- **NYT:** headline, date, the NYT's own short abstract and a button to the full article on nytimes.com. The NYT doesn't allow its pages inside other sites, and its API has no article text.
+- **Guardian:** the full article text, unedited, with headline, byline, copyright notice, a link to the original and the "Powered by The Guardian" logo, as the Guardian Open Platform terms require for the free developer key (non-commercial use only).
+
+The Guardian terms allow keeping article text for **24 hours at most**. So the text is never stored in the repo: `pipeline.fetch_guardian` downloads it inside the deploy job into `web/public/data/guardian.json` (git-ignored), and `deploy.yml` runs every day at 05:00 UTC to replace it. If that daily deploy stops running, the published text would go stale; take the site down or remove the Guardian key until it runs again. Never pass Guardian text to an AI model (terms §6(g)).
+
+`data/news/<event>.json` (committed) stores only title, outlet, date, URL, the NYT abstract and the Guardian content id. In GitHub: **Actions → news → Run workflow** (empty `only` = every event without headlines; tick `force` to refetch all). It commits `data/news/` and redeploys. A full run takes about 20 minutes because of the NYT rate limit (~5 requests/minute, 500/day). Locally:
 
 ```bash
 NYT_API_KEY=… GUARDIAN_API_KEY=… .venv/bin/python -m pipeline.fetch_news --only lehman_2008

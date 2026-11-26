@@ -1,4 +1,4 @@
-import type { AppData, EpisodeSeries, EventSeries } from "./types";
+import type { AppData, EpisodeSeries, EventSeries, GuardianData } from "./types";
 
 const base = `${import.meta.env.BASE_URL}data/`;
 
@@ -27,3 +27,5 @@ function cached<T>(path: string): Promise<T> {
 
 export const loadEventSeries = (id: string) => cached<EventSeries>(`events/${id}.json`);
 export const loadEpisodeSeries = (id: string) => cached<EpisodeSeries>(`episodes/${id}.json`);
+// Guardian article text: downloaded at deploy time, never committed (24-hour limit in their terms).
+export const loadGuardian = () => cached<GuardianData>("guardian.json");

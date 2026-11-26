@@ -84,8 +84,20 @@ export interface AIText {
   author: string;
   as_of?: string;
 }
+export interface Headline {
+  title: string;
+  source: string;            // "The New York Times" | "The Guardian"
+  date: string;
+  url: string;
+  abstract?: string;         // NYT's own short summary
+  id?: string;               // Guardian content id → guardian.json
+}
+
+export interface GuardianArticle { headline: string; byline: string; date: string; url: string; body: string }
+export interface GuardianData { fetched_at: string; articles: Record<string, GuardianArticle> }
+
 export interface EventTexts {
-  headlines?: { title: string; source: string; date: string; url: string }[];
+  headlines?: Headline[];
   context?: AIText;
   analysis?: AIText;
 }
