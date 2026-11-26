@@ -16,7 +16,7 @@ export default function Footer({ meta }: { meta: Meta }) {
           <li>Longer horizons include other news; reactions are not attributable to a single event.</li>
           <li>Episode drawdown = largest peak-to-trough fall of the sector inside the episode's dates.</li>
           <li>Context and analysis texts are written by an AI model (Claude) from the numbers shown and general historical knowledge. They may be inaccurate. Not financial advice.</li>
-          <li>Uncertainty indices: Baker, Bloom & Davis (EPU); Caldara & Iacoviello (GPR).</li>
+          <li>Headlines link to the original articles; only titles, dates and links are shown. Uncertainty indices: Baker, Bloom & Davis (EPU); Caldara & Iacoviello (GPR).</li>
         </ul>
       </details>
       <p className="attrib">

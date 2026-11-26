@@ -9,11 +9,12 @@ The site is static (GitHub Pages). A daily GitHub Actions job downloads prices f
 ```
 config/            sectors.yaml · events.yaml · episodes.yaml   ← curated inputs
 pipeline/          fetch_prices → build_series → compute_reactions → fetch_indicators → export
-                   text_brief (numbers per event, to write its texts)
+                   text_brief (numbers per event, to write its texts) · fetch_news (headline links)
 tests/             day-0 rule (spec §3.4) and dynamic baskets
 data/texts.json    Context + Analysis per event (committed, source of truth)
+data/news/         headline links per event: NYT + Guardian (committed)
 web/               Vite + React + TypeScript + ECharts; reads web/public/data/*.json
-.github/workflows/ daily.yml · deploy.yml
+.github/workflows/ daily.yml · news.yml · deploy.yml
 ```
 
 ## Run locally
@@ -46,10 +47,20 @@ That prints, for every event missing a text (or with an "as of" analysis whose h
 
 Rules for the texts (spec §8): explain only plausible mechanisms, cite the real numbers, flag other news in the same window and small baskets, no invented facts, no advice or predictions.
 
+## Headlines
+
+Each event lists up to 5 headlines (at most 3 per outlet) from The New York Times (Article Search API) and The Guardian (Content API), published between 28 days before and 2 days after the announcement. Only title, outlet, date and link are stored and shown; readers go to the original article. Nothing from the articles is passed to an AI model.
+
+In GitHub: **Actions → news → Run workflow** (empty `only` = every event without headlines). It commits `data/news/` and redeploys. A full run takes about 20 minutes because of the NYT rate limit (~5 requests/minute, 500/day). Locally:
+
+```bash
+NYT_API_KEY=… GUARDIAN_API_KEY=… .venv/bin/python -m pipeline.fetch_news --only lehman_2008
+```
+
 ## GitHub setup
 
 1. **Settings → Pages → Source: GitHub Actions.**
-2. Optional: **Settings → Secrets → Actions:** `FRED_API_KEY` (EPU falls back to FRED's public CSV, then to policyuncertainty.com).
+2. **Settings → Secrets → Actions** (repository secrets): `NYT_API_KEY` (the app's Key, not its Secret) and `GUARDIAN_API_KEY`; optionally `FRED_API_KEY` (EPU falls back to FRED's public CSV, then to policyuncertainty.com).
 3. **Settings → Actions → General:** allow workflows to *read and write* (the daily job commits data).
 
 ## Decisions and deviations from the spec
@@ -72,5 +83,5 @@ Rules for the texts (spec §8): explain only plausible mechanisms, cite the real
 - [ ] **Verify every event's date and UTC time** against a primary source. All events in `config/events.yaml` are `verified: false`; times are estimates from the spec's WE/AC/ID notes. ⚠ items: Greece deficit 2009, Nvidia $5T 2025, rare earths 2025
 - [ ] Add `official_sources` links per event (only "whatever it takes" has one)
 - [ ] Review the 85 texts written on 2026-11-26 (all published); rewrite `us_midterms_2026` once its horizons close
-- [ ] Optional: headline links per event (title, outlet, date, URL to the original article)
+- [ ] Check the fetched headlines; refetch or fix by hand in `data/news/` where a pick is off-topic
 - [ ] Add 2026 events after verification

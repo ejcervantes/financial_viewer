@@ -1,0 +1,64 @@
+name: news
+
+# Manual: fetch headline links (title, outlet, date, URL) from The New York Times and
+# The Guardian for events that don't have them yet, commit data/news, then deploy.
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Event ids, space-separated (empty = all events without news)"
+        required: false
+        default: ""
+      force:
+        description: "Refetch events that already have news"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily   # shares the lock with daily.yml so both never push at once
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fetch headlines
+        env:
+          NYT_API_KEY: ${{ secrets.NYT_API_KEY }}
+          GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
+          ONLY: ${{ inputs.only }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          ARGS=()
+          if [ -n "$ONLY" ]; then read -ra IDS <<< "$ONLY"; ARGS+=(--only "${IDS[@]}"); fi
+          if [ "$FORCE" = "true" ]; then ARGS+=(--force); fi
+          python -m pipeline.fetch_news "${ARGS[@]}"
+      - name: Commit news
+        if: ${{ !cancelled() }}   # keep what was fetched even if a key or quota stopped the run
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news
+          if git diff --cached --quiet; then
+            echo "No new headlines"
+          else
+            git commit -m "news: headline links $(date -u +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          fi
+
+  deploy:
+    needs: news
+    if: ${{ !cancelled() }}
+    uses: ./.github/workflows/deploy.yml

@@ -34,9 +34,12 @@ def iso(v) -> str | None:
 def export_texts() -> dict:
     """Publish texts with `reviewed: true` (the publish switch, spec §8.2); headlines are links and always published."""
     texts = read_json(DATA / "texts.json", {})
+    news_ids = {p.stem for p in (DATA / "news").glob("*.json")}
     public = {}
-    for eid, t in texts.items():
-        out = {"headlines": t.get("headlines", [])}
+    for eid in sorted(set(texts) | news_ids):
+        t = texts.get(eid, {})
+        news = read_json(DATA / "news" / f"{eid}.json", {})
+        out = {"headlines": [{k: h[k] for k in ("title", "source", "date", "url")} for h in news.get("headlines", [])]}
         for kind in ("context", "analysis"):
             item = t.get(kind)
             if item and item.get("reviewed"):
