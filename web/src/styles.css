@@ -6,8 +6,7 @@
   --muted: #6b717b;
   --line: #e6e3db;
   --line-2: #d4d0c6;
-  --na: #d6d4ce;
-  --na-pattern: repeating-linear-gradient(135deg, #d6d4ce 0 2px, #c4c1b8 2px 3.5px);
+  --na: #8a877f;
   --pos: #1f6f3f;
   --neg: #b3261e;
   --accent: #1c1f24;
@@ -63,7 +62,7 @@ h1, h2, h3 { font-weight: 600; margin: 0; letter-spacing: -0.01em; }
 .legend-bar { width: 160px; height: 10px; border-radius: 2px; }
 .legend-item { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
 .swatch { width: 14px; height: 10px; display: inline-block; border-radius: 1px; }
-.swatch.insufficient { background: var(--na-pattern); }
+.swatch.insufficient { background: var(--na); }
 .swatch.in-progress { background: #f4f3ef; outline: 1.5px dotted var(--ink-2); outline-offset: -1.5px; }
 
 /* Heatmap */
@@ -92,7 +91,7 @@ h1, h2, h3 { font-weight: 600; margin: 0; letter-spacing: -0.01em; }
 .sector-name { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .mkt { color: var(--muted); font-size: 10.5px; letter-spacing: 0.04em; }
 .cell { flex: none; border-right: 1px solid var(--surface); border-bottom: 1px solid var(--surface); cursor: pointer; }
-.cell.na { background: var(--na-pattern); }
+.cell.na { background: var(--na); }
 .cell.pending { background: #f4f3ef; outline: 1.5px dotted var(--line-2); outline-offset: -2px; }
 .cell.prog { outline: 1.5px dotted var(--ink-2); outline-offset: -2px; }
 .col-hl { position: absolute; top: 0; bottom: 0; pointer-events: none; box-shadow: inset 0 0 0 1.5px var(--ink); z-index: 1; }
